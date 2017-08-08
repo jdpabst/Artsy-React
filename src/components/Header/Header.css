@@ -1,29 +1,29 @@
 .header{
     width: 100%;
     /* background: #F2E4CA; */
-    background: #F9EFDB;
+    /* background: #F9F2E5; */
     height: 75px;
 }
 #mobile_header{
     width: 100%;
-    border: 2px solid lime;
+     /* border-bottom: 0.5px solid #394A46;  */
     height: 75px;
 }
 .ham{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 1px solid white;
+     border: 1px solid #394A46; 
     padding-top: 13.2px;
     position: absolute;
     left: 20px;
-    top: 12px;
+    top: 2s2px;
 }
 .ham div{
     height: 4px;
     width: 30px;
     border-radius: 3px;
-    background: white;
+    background: #394A46;
     margin-left: auto;
     margin-right: auto;
     display: block;
