@@ -62,6 +62,7 @@
     position: absolute;
     top: 66px;
     left: 60px;
+    display: none;
 }
 #mobile_menu div{
     font-family: 'Amatic SC', cursive;

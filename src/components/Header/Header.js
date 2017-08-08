@@ -6,7 +6,24 @@ import './Header.css';
 class Header extends Component {
     constructor(props){
         super(props);
-        
+        this.state = {
+            drop: false
+        }
+        this.handleDropDown = this.handleDropDown.bind(this);
+    }
+
+    handleDropDown(){
+        if(!this.state.drop){
+            document.getElementById('mobile_menu').style.display = 'block';
+            this.setState({
+                drop: true,
+            })
+        } else{
+            document.getElementById('mobile_menu').style.display = 'none';
+            this.setState({
+                drop: true,
+            })
+        }
     }
 
   render() {
@@ -18,7 +35,7 @@ class Header extends Component {
                   <div id="bar2"></div>
                   <div id="bar3"></div>
               </div>
-            <section id="mobile_menu">
+            <section id="mobile_menu" onClick={ this.handleDropDown }>
                 <div>HOME</div>
                 <div>SHOP</div>
                 <div>CART</div>
