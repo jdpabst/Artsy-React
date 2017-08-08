@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    background: gray;
+    height: 75px;
+}
+#mobile_header{
+    width: 100%;
+    border: 2px solid lime;
+    height: 75px;
+}
+.ham{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-top: 8px;
+}
+.ham div{
+    height: 5px;
+    width: 30px;
+    border-radius: 3px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 8px;
+}
