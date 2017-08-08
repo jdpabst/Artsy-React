@@ -49,6 +49,27 @@
     top: 10px;
     color: #394A46;
 }
+#mobile_menu{
+    height: 150px;
+    width: 130px;
+    border: 1px solid #F3AE0B;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 12px;
+    position: absolute;
+    top: 66px;
+    left: 60px;
+}
+#mobile_menu div{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    height: 45px;
+    width: 130px;
+    text-align: center;
+    color: #394A46;
+}
 @keyframes rotate{
     from {transition: rotate(0deg)}
     to {transform:rotate(90deg)}

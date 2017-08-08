@@ -18,6 +18,11 @@ class Header extends Component {
                   <div id="bar2"></div>
                   <div id="bar3"></div>
               </div>
+            <section id="mobile_menu">
+                <div>HOME</div>
+                <div>SHOP</div>
+                <div>CART</div>
+            </section>
               <h1 className="header_logo">Artsy</h1>
           </section>
 
