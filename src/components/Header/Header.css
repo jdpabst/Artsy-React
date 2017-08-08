@@ -160,7 +160,7 @@
     width: 100%;
     position: relative;
     background: #FAF4E7;
-    /* display: none; */
+    display: none; 
 }
 #painting_drop ul{
      /* border: 2px dotted black; */
