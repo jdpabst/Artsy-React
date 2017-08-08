@@ -112,11 +112,38 @@
 .desktop_menu div{
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
+    color: #394A46;
 }
 .desktop_menu div:hover{
     cursor: pointer;
     color: #F3AE0B
 }
+#categories_holder{
+    height: 40px;
+    width: 100%;
+    background: #F3AE0B;
+}
+#categories{
+    height: 40px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    background: #F3AE0B;
+}
+#categories div{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: white;
+}
+#categories div:hover{
+    color: #394A46;
+    cursor: pointer;
+}
+
 @media(min-width: 650px){
     #mobile_header{
         display: none;

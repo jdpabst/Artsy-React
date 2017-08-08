@@ -53,6 +53,18 @@ class Header extends Component {
                     <div>CART</div>
                 </div>
               </div>
+              <div id="categories_holder">
+                <section id="categories">
+                    <div>paintings</div> 
+                    {/*oil, watercolor, abstract  */}
+                    <div>seasonal</div>
+                    {/*christmas, halloween, fall, spring, summer  */}
+                    <div>photography</div>
+                    {/*nature, animals, places  */}
+                    <div>crafts</div>
+                    {/*rustic, coastal, modern, natural  */}
+                </section>
+              </div>
           </section>
       </div>
     );
