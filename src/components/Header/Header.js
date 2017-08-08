@@ -11,6 +11,7 @@ class Header extends Component {
         }
         this.handleDropDown = this.handleDropDown.bind(this);
         this.handlePaintings = this.handlePaintings.bind(this);
+        this.handleSeasonal = this.handleSeasonal.bind(this);
     }
 
     handleDropDown(){
@@ -34,6 +35,19 @@ class Header extends Component {
             })
         } else{
             document.getElementById('painting_drop').style.display = 'none';
+            this.setState({
+                drop: false,
+            })
+        }
+    }
+    handleSeasonal(){
+        if(!this.state.drop){
+            document.getElementById('seasonal_drop').style.display = 'block';
+            this.setState({
+                drop: true,
+            })
+        } else{
+            document.getElementById('seasonal_drop').style.display = 'none';
             this.setState({
                 drop: false,
             })
@@ -72,7 +86,7 @@ class Header extends Component {
                     <div onClick = { this.handlePaintings }>paintings</div> 
                     {/*oil, watercolor, abstract  */}
                     <div id="bullet">|</div>
-                    <div>seasonal</div>
+                    <div onClick={ this.handleSeasonal }>seasonal</div>
                     {/*christmas, halloween, fall, spring, summer  */}
                     <div id="bullet">|</div>
                     <div>photography</div>
@@ -91,6 +105,14 @@ class Header extends Component {
                     </ul>
                 </section>
                 <section id="seasonal_drop">
+                    <ul>
+                        <li>christmas</li>
+                        <li>fall</li>
+                        <li>halloween</li>
+                        <li>spring</li>
+                        <li>summer</li>
+                        <li>all</li>
+                    </ul>
                 </section>
                 <section id="photo_drop">
                 </section>

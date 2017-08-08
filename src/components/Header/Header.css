@@ -153,7 +153,14 @@
     width: 100%;
     position: relative;
     background: #FAF4E7;
-    display: none;
+     display: none; 
+}
+#seasonal_drop{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background: #FAF4E7;
+    /* display: none; */
 }
 #painting_drop ul{
      /* border: 2px dotted black; */
@@ -163,6 +170,18 @@
     justify-content: space-around;
     height: 50px;
     width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: #394A46;
+}
+#seasonal_drop ul{
+    padding-top: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
