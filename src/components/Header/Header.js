@@ -29,6 +29,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
+          {/*//////MOBILE//////  */}
           <section id="mobile_header">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
@@ -42,7 +43,17 @@ class Header extends Component {
                 </section>
                 <h1 className="header_logo">Artsy</h1>
           </section>
-
+          {/*//////DESKTOP//////  */}
+          <section id="desktop_header">
+              <div id="desktop_control">
+                <div className="header_logo">Artsy</div>
+                <div className="desktop_menu">
+                    <div>HOME</div>
+                    <div>SHOP</div>
+                    <div>CART</div>
+                </div>
+              </div>
+          </section>
       </div>
     );
   }
