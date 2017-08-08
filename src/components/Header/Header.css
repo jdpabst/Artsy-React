@@ -58,7 +58,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 3px;
+    padding-top: 6px;
     position: absolute;
     top: 66px;
     left: 60px;
@@ -82,4 +82,12 @@
 @keyframes rotate{
     from {transition: rotate(0deg)}
     to {transform:rotate(90deg)}
+}
+@media(min-width: 650px){
+    #mobile_header{
+        display: none;
+    }
+    #desktop_header{
+        display: block;
+    }
 }
