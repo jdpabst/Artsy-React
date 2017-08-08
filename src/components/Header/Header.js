@@ -64,6 +64,20 @@ class Header extends Component {
                     <div>crafts</div>
                     {/*rustic, coastal, modern, natural  */}
                 </section>
+                {/*onClick - change color of category word, drop down menu for that category*/}
+                <section id="painting_drop">
+                    <ul>
+                        <li>oil</li>
+                        <li>watercolor</li>
+                        <li>abstract</li>
+                    </ul>
+                </section>
+                <section id="seasonal_drop">
+                </section>
+                <section id="photo_drop">
+                </section>
+                <section id="craft_drop">
+                </section>
               </div>
           </section>
       </div>

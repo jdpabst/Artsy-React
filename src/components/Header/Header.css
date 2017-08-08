@@ -143,7 +143,21 @@
     color: #394A46;
     cursor: pointer;
 }
-
+#painting_drop{
+    height: 70px;
+    width: 100%;
+    background: #FAF4E7;
+}
+#painting_drop ul{
+    border: 2px dotted black;
+    height: 70px;
+    width: 80px;
+    font-size: 25px;
+    color: #394A46;
+}
+li{
+    font-family: 'Amatic SC', cursive;
+}
 @media(min-width: 650px){
     #mobile_header{
         display: none;
