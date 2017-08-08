@@ -30,7 +30,13 @@
 }
 .header_logo{
     font-family: 'Miss Fajardose', cursive;
-    font-family: 'Sacramento', cursive;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Satisfy', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Satisfy', cursive; */
+    /* font-weight: bold; */
+    font-size: 76px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: lightcoral;
 }
