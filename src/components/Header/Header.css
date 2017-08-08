@@ -19,12 +19,12 @@
     left: 20px;
     top: 22px;
     cursor: pointer;
-    transition: transform 1s;
+    transition: transform 2s;
     
 }
 .ham:hover{
      /* animation: rotate 2s;*/
-     transform: rotate(90deg);
+     transform: rotate(270deg);
 }
 .ham div{
     height: 4px;
