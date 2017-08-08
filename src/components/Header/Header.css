@@ -1,6 +1,7 @@
 .header{
     width: 100%;
-    background: gray;
+    /* background: #F2E4CA; */
+    background: #F9EFDB;
     height: 75px;
 }
 #mobile_header{
@@ -13,7 +14,7 @@
     width: 50px;
     border-radius: 50%;
     border: 1px solid white;
-    padding-top: 12px;
+    padding-top: 13.2px;
     position: absolute;
     left: 20px;
     top: 12px;
@@ -33,10 +34,11 @@
     /* font-family: 'Sacramento', cursive; */
     /* font-family: 'Pacifico', cursive; */
     /* font-family: 'Satisfy', cursive; */
+    /* font-family: 'Amatic SC', cursive; */
     /* font-weight: bold; */
     font-size: 76px;
     position: absolute;
-    right: 20px;
+    right: 25px;
     top: 10px;
-    color: lightcoral;
+    color: #394A46;
 }

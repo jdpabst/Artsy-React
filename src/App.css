@@ -1,1 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Miss+Fajardose|Pacifico|Sacramento|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Miss+Fajardose|Pacifico|Sacramento|Satisfy');
+/* storm-gray : #394A46 */
+/* honey: #F3AE0B */
+/* linen: #F2E4CA */
+.app{
+  background: #F2E4CA;
+}
