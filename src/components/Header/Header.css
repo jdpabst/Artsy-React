@@ -143,11 +143,17 @@
     color: #394A46;
     cursor: pointer;
 }
+#bullet{
+    height: 7px;
+    width: 7px;
+    position: relative;
+}
 #painting_drop{
     height: 50px;
     width: 100%;
     position: relative;
     background: #FAF4E7;
+    display: none;
 }
 #painting_drop ul{
      /* border: 2px dotted black; */
@@ -156,7 +162,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     height: 50px;
-    width: 250px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
