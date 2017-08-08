@@ -17,7 +17,14 @@
     padding-top: 13.2px;
     position: absolute;
     left: 20px;
-    top: 2s2px;
+    top: 22px;
+    cursor: pointer;
+    transition: transform 1s;
+    
+}
+.ham:hover{
+     /* animation: rotate 2s;*/
+     transform: rotate(90deg);
 }
 .ham div{
     height: 4px;
@@ -41,4 +48,8 @@
     right: 25px;
     top: 10px;
     color: #394A46;
+}
+@keyframes rotate{
+    from {transition: rotate(0deg)}
+    to {transform:rotate(90deg)}
 }
