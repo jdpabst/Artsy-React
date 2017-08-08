@@ -144,18 +144,24 @@
     cursor: pointer;
 }
 #painting_drop{
-    height: 70px;
+    height: 80px;
     width: 100%;
+    position: relative;
     background: #FAF4E7;
 }
 #painting_drop ul{
-    border: 2px dotted black;
-    height: 70px;
-    width: 80px;
+     border: 2px dotted black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
     color: #394A46;
 }
-li{
+ul li{
     font-family: 'Amatic SC', cursive;
 }
 @media(min-width: 650px){
