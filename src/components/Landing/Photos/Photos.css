@@ -17,7 +17,14 @@
     border: 1px solid #F2E4CA;
     height: 250px;
     width: 250px;
+        box-shadow: 8px 8px 20px lightgray;
 }
+.photos ul li:hover{
+    height: 275px;
+    width: 275px;
+    transition-duration: 1s;
+}
+
 .photos #img1{
     background: url(http://cruiseweb.com/blog/wp-content/uploads/2015/08/alaska-denali-moose.jpg) center no-repeat;
     background-size: cover;

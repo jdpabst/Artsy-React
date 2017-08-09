@@ -17,6 +17,12 @@
     border: 1px solid #F2E4CA;
     height: 250px;
     width: 250px;
+    box-shadow: 8px 8px 20px lightgray;
+}
+.craft ul li:hover{
+    height: 275px;
+    width: 275px;
+    transition-duration: 1s;
 }
 .craft #img1{
     background: url(http://4.bp.blogspot.com/-El0ftptPHKU/Uk79Km-hbFI/AAAAAAAABxw/t8lJ9MFQoFk/s1600/Coral-+after2.jpg) center no-repeat;
