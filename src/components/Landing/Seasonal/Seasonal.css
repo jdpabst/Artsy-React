@@ -25,6 +25,11 @@
     width: 255px;
     transition-duration: 1s;
 }
+@media(max-width: 950px){
+    .season ul{
+        display: block;
+    }
+}
 .season #img1{
     background: url(https://s-media-cache-ak0.pinimg.com/736x/5c/a5/18/5ca518b257943fae71472b06a416f99d--christmas-canvas-christmas-paintings.jpg) center no-repeat;
     background-size: cover;
