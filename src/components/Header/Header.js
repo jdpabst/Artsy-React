@@ -53,6 +53,19 @@ class Header extends Component {
             })
         }
     }
+    handlePhoto(){
+        if(!this.state.drop){
+            document.getElementById('photo_drop').style.display = 'block';
+            this.setState({
+                drop: true,
+            })
+        } else{
+            document.getElementById('photo_drop').style.display = 'none';
+            this.setState({
+                drop: false,
+            })
+        }
+    }
 
   render() {
     return (
@@ -115,6 +128,12 @@ class Header extends Component {
                     </ul>
                 </section>
                 <section id="photo_drop">
+                    <ul>
+                        <li>nature</li>
+                        <li>animals</li>
+                        <li>places</li>
+                        <li>all</li>
+                    </ul>
                 </section>
                 <section id="craft_drop">
                 </section>
