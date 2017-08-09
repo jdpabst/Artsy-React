@@ -12,6 +12,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .photos ul li{
     border: 1px solid #F2E4CA;
@@ -26,8 +30,26 @@
     transition-duration: 1s;
 }
 @media(max-width: 950px){
+    .photos{
+        height: 650px;
+        /* border: 2px dotted black; */
+    }
     .photos ul{
-        display: block;
+        width: 80%;
+        height: 550px;
+    }
+}
+@media(max-width: 835px){
+    .photos{
+        height: 850px;
+        /* border: 2px dotted black; */
+    }
+    .photos ul{
+        width: 255px;
+        height: 550px;
+    }
+    .photos ul li{
+        margin-bottom: 15px;
     }
 }
 .photos #img1{

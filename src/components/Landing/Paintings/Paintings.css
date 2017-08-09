@@ -17,6 +17,10 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .paint ul li{
     border: 1px solid #F2E4CA;
@@ -31,8 +35,26 @@ h2{
     transition-duration: 1s;
 }
 @media(max-width: 950px){
+    .paint{
+        height: 650px;
+        /* border: 2px dotted black; */
+    }
     .paint ul{
-        display: block;
+        width: 80%;
+        height: 550px;
+    }
+}
+@media(max-width: 835px){
+    .paint{
+        height: 850px;
+        /* border: 2px dotted black; */
+    }
+    .paint ul{
+        width: 255px;
+        height: 550px;
+    }
+    .paint ul li{
+        margin-bottom: 15px;
     }
 }
 #img1{
