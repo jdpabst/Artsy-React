@@ -25,7 +25,11 @@
     width: 255px;
     transition-duration: 1s;
 }
-
+@media(max-width: 950px){
+    .photos ul{
+        display: block;
+    }
+}
 .photos #img1{
     background: url(http://cruiseweb.com/blog/wp-content/uploads/2015/08/alaska-denali-moose.jpg) center no-repeat;
     background-size: cover;

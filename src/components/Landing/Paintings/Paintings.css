@@ -30,6 +30,11 @@ h2{
     width: 255px;
     transition-duration: 1s;
 }
+@media(max-width: 950px){
+    .paint ul{
+        display: block;
+    }
+}
 #img1{
     background: url(http://render.fineartamerica.com/images/images-print-search/images/artworkimages/medium/1/watercolor-rhino-pati-photography.jpg) center no-repeat;
     background-size: cover;
