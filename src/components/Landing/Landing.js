@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Paintings from './Paintings/Paintings'
 import Seasonal from './Seasonal/Seasonal'
+import Photos from './Photos/Photos'
 import './Landing.css';
 
 
@@ -13,6 +14,7 @@ class Landing extends Component {
           Welcome!
           <Paintings/>
           <Seasonal/>
+          <Photos/>
       </div>
     );
   }

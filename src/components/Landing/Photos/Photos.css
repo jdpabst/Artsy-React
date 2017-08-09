@@ -1,0 +1,67 @@
+.photos{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid #F2E4CA;  */
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 105px;
+}
+.photos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photos ul li{
+    border: 1px solid #F2E4CA;
+    height: 250px;
+    width: 250px;
+}
+.photos #img1{
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/5c/a5/18/5ca518b257943fae71472b06a416f99d--christmas-canvas-christmas-paintings.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.photos #img2{
+    background: url(https://www.dswatercolors.com/sites/dswatercolors.indiemade.com/files/feathers5_0.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.photos #img3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKJiMpkRW0dOFck9t5KLXviaAZIZRRilGVOXiCNpAN_PXl5YZkzA) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+li #price{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: right;
+    margin: 10px 10px 0 0;
+    color: #394A46;
+}
+
+li p:hover{
+    color: #394A46;
+    cursor: pointer;
+}
+li #desc{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    margin: -35px 0 0 10px;
+    font-weight: bold;
+    color: #394A46;
+}
