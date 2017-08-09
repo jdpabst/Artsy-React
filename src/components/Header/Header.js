@@ -12,6 +12,7 @@ class Header extends Component {
         this.handleDropDown = this.handleDropDown.bind(this);
         this.handlePaintings = this.handlePaintings.bind(this);
         this.handleSeasonal = this.handleSeasonal.bind(this);
+        this.handlePhoto = this.handlePhoto.bind(this);
     }
 
     handleDropDown(){
@@ -30,6 +31,8 @@ class Header extends Component {
     handlePaintings(){
         if(!this.state.drop){
             document.getElementById('painting_drop').style.display = 'block';
+            document.getElementById('seasonal_drop').style.display = 'none';
+            document.getElementById('photo_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -43,6 +46,8 @@ class Header extends Component {
     handleSeasonal(){
         if(!this.state.drop){
             document.getElementById('seasonal_drop').style.display = 'block';
+            document.getElementById('painting_drop').style.display = 'none';
+            document.getElementById('photo_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -56,6 +61,8 @@ class Header extends Component {
     handlePhoto(){
         if(!this.state.drop){
             document.getElementById('photo_drop').style.display = 'block';
+            document.getElementById('seasonal_drop').style.display = 'none';
+            document.getElementById('painting_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -102,7 +109,7 @@ class Header extends Component {
                     <div onClick={ this.handleSeasonal }>seasonal</div>
                     {/*christmas, halloween, fall, spring, summer  */}
                     <div id="bullet">|</div>
-                    <div>photography</div>
+                    <div onClick={ this.handlePhoto }>photography</div>
                     {/*nature, animals, places  */}
                     <div id="bullet">|</div>
                     <div>crafts</div>
