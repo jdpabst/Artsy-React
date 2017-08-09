@@ -13,6 +13,7 @@ class Header extends Component {
         this.handlePaintings = this.handlePaintings.bind(this);
         this.handleSeasonal = this.handleSeasonal.bind(this);
         this.handlePhoto = this.handlePhoto.bind(this);
+        this.handleCraft = this.handleCraft.bind(this);
     }
 
     handleDropDown(){
@@ -33,6 +34,7 @@ class Header extends Component {
             document.getElementById('painting_drop').style.display = 'block';
             document.getElementById('seasonal_drop').style.display = 'none';
             document.getElementById('photo_drop').style.display = 'none';
+            document.getElementById('craft_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -43,11 +45,28 @@ class Header extends Component {
             })
         }
     }
+    handleCraft(){
+        if(!this.state.drop){
+            document.getElementById('painting_drop').style.display = 'none';
+            document.getElementById('seasonal_drop').style.display = 'none';
+            document.getElementById('photo_drop').style.display = 'none';
+            document.getElementById('craft_drop').style.display = 'block';
+            this.setState({
+                drop: true,
+            })
+        } else{
+            document.getElementById('craft_drop').style.display = 'none';
+            this.setState({
+                drop: false,
+            })
+        }
+    }
     handleSeasonal(){
         if(!this.state.drop){
             document.getElementById('seasonal_drop').style.display = 'block';
             document.getElementById('painting_drop').style.display = 'none';
             document.getElementById('photo_drop').style.display = 'none';
+            document.getElementById('craft_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -63,6 +82,7 @@ class Header extends Component {
             document.getElementById('photo_drop').style.display = 'block';
             document.getElementById('seasonal_drop').style.display = 'none';
             document.getElementById('painting_drop').style.display = 'none';
+            document.getElementById('craft_drop').style.display = 'none';
             this.setState({
                 drop: true,
             })
@@ -143,6 +163,11 @@ class Header extends Component {
                     </ul>
                 </section>
                 <section id="craft_drop">
+                    <ul>
+                        <li>rustic</li>
+                        <li>modern</li>
+                        <li>coastal</li>
+                    </ul>
                 </section>
               </div>
           </section>

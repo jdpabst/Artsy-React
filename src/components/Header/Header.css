@@ -169,6 +169,13 @@
     background: #FAF4E7;
      display: none;  
 }
+#craft_drop{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background: #FAF4E7;
+     /* display: none;   */
+}
 #painting_drop ul{
      /* border: 2px dotted black; */
      padding-top: 10px; 
@@ -201,6 +208,18 @@
     justify-content: space-around;
     height: 50px;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: #394A46;
+}
+#craft_drop ul{
+    padding-top: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
