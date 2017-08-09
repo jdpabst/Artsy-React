@@ -1,0 +1,67 @@
+.craft{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid #F2E4CA;  */
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 105px;
+}
+.craft ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.craft ul li{
+    border: 1px solid #F2E4CA;
+    height: 250px;
+    width: 250px;
+}
+.craft #img1{
+    background: url(http://4.bp.blogspot.com/-El0ftptPHKU/Uk79Km-hbFI/AAAAAAAABxw/t8lJ9MFQoFk/s1600/Coral-+after2.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.craft #img2{
+    background: url(https://www.potterybarn.com/pbimgs/rk/images/dp/wcm/201712/0070/antique-mercury-glass-pumpkins-c.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.craft #img3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaf4htPSoLHRXDjRyPRx0NLr-UtX-SBlbtv2nYf3uIrIQggruYRA) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+li #price{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: right;
+    margin: 10px 10px 0 0;
+    color: #394A46;
+}
+
+li p:hover{
+    color: #394A46;
+    cursor: pointer;
+}
+li #desc{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    margin: -35px 0 0 10px;
+    font-weight: bold;
+    color: #394A46;
+}
