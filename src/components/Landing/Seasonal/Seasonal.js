@@ -8,6 +8,7 @@ class Season extends Component {
   render() {
     return (
       <div className="season">
+        <h2>Shop for the season</h2>
           <ul>
               <li>
                   <div>

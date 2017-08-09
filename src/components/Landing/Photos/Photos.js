@@ -8,6 +8,7 @@ class Photos extends Component {
   render() {
     return (
       <div className="photos">
+        <h2>Shop for photos</h2>
           <ul>
               <li>
                   <div>

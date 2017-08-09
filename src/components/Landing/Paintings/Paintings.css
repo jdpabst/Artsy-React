@@ -7,6 +7,11 @@
     margin-right: auto;
     position: relative;
     margin-top: 105px;
+    
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
 }
 .paint ul{
     display: flex;
@@ -17,11 +22,12 @@
     border: 1px solid #F2E4CA;
     height: 250px;
     width: 250px;
-    box-shadow: 8px 8px 20px lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px lightgray;
 }
 .paint ul li:hover{
-    height: 275px;
-    width: 275px;
+    height: 255px;
+    width: 255px;
     transition-duration: 1s;
 }
 #img1{

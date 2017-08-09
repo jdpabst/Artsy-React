@@ -8,6 +8,7 @@ class Craft extends Component {
   render() {
     return (
       <div className="craft">
+        <h2>Shop for decorations</h2>
           <ul>
               <li>
                   <div>

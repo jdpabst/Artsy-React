@@ -7,6 +7,7 @@
     margin-right: auto;
     position: relative;
     margin-top: 105px;
+    margin-bottom: 150px;
 }
 .craft ul{
     display: flex;
@@ -15,13 +16,14 @@
 }
 .craft ul li{
     border: 1px solid #F2E4CA;
+    border-radius: 10px;
     height: 250px;
     width: 250px;
-    box-shadow: 8px 8px 20px lightgray;
+    box-shadow: 5px 5px 12px lightgray;
 }
 .craft ul li:hover{
-    height: 275px;
-    width: 275px;
+    height: 255px;
+    width: 255px;
     transition-duration: 1s;
 }
 .craft #img1{
