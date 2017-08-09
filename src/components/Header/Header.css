@@ -139,7 +139,7 @@
     font-size: 25px;
     color: white;
 }
-#categories div:hover{
+#categories div:hover:nth-child(odd){
     color: #394A46;
     cursor: pointer;
 }
