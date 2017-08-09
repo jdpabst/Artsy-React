@@ -32,6 +32,7 @@ class Header extends Component {
     handlePaintings(){
         if(!this.state.drop){
             document.getElementById('painting_drop').style.display = 'block';
+            document.getElementById('paintings').style.color = '#394A46';
             document.getElementById('seasonal_drop').style.display = 'none';
             document.getElementById('photo_drop').style.display = 'none';
             document.getElementById('craft_drop').style.display = 'none';
@@ -40,6 +41,7 @@ class Header extends Component {
             })
         } else{
             document.getElementById('painting_drop').style.display = 'none';
+            document.getElementById('paintings').style.color = 'white';
             this.setState({
                 drop: false,
             })
@@ -48,6 +50,7 @@ class Header extends Component {
     handleCraft(){
         if(!this.state.drop){
             document.getElementById('painting_drop').style.display = 'none';
+            document.getElementById('craft').style.color = '#394A46';
             document.getElementById('seasonal_drop').style.display = 'none';
             document.getElementById('photo_drop').style.display = 'none';
             document.getElementById('craft_drop').style.display = 'block';
@@ -56,6 +59,7 @@ class Header extends Component {
             })
         } else{
             document.getElementById('craft_drop').style.display = 'none';
+            document.getElementById('craft').style.color = 'white';
             this.setState({
                 drop: false,
             })
@@ -64,6 +68,7 @@ class Header extends Component {
     handleSeasonal(){
         if(!this.state.drop){
             document.getElementById('seasonal_drop').style.display = 'block';
+            document.getElementById('seasonal').style.color = '#394A46';
             document.getElementById('painting_drop').style.display = 'none';
             document.getElementById('photo_drop').style.display = 'none';
             document.getElementById('craft_drop').style.display = 'none';
@@ -72,6 +77,7 @@ class Header extends Component {
             })
         } else{
             document.getElementById('seasonal_drop').style.display = 'none';
+            document.getElementById('seasonal').style.color = 'white';
             this.setState({
                 drop: false,
             })
@@ -80,6 +86,7 @@ class Header extends Component {
     handlePhoto(){
         if(!this.state.drop){
             document.getElementById('photo_drop').style.display = 'block';
+            document.getElementById('photo').style.color = '#394A46';
             document.getElementById('seasonal_drop').style.display = 'none';
             document.getElementById('painting_drop').style.display = 'none';
             document.getElementById('craft_drop').style.display = 'none';
@@ -88,6 +95,7 @@ class Header extends Component {
             })
         } else{
             document.getElementById('photo_drop').style.display = 'none';
+            document.getElementById('photo').style.color = 'white';
             this.setState({
                 drop: false,
             })
@@ -123,16 +131,16 @@ class Header extends Component {
               </div>
               <div id="categories_holder">
                 <section id="categories">
-                    <div onClick = { this.handlePaintings }>paintings</div> 
+                    <div onClick = { this.handlePaintings } id="paintings">paintings</div> 
                     {/*oil, watercolor, abstract  */}
                     <div id="bullet">|</div>
-                    <div onClick={ this.handleSeasonal }>seasonal</div>
+                    <div onClick={ this.handleSeasonal } id="seasonal">seasonal</div>
                     {/*christmas, halloween, fall, spring, summer  */}
                     <div id="bullet">|</div>
-                    <div onClick={ this.handlePhoto }>photography</div>
+                    <div onClick={ this.handlePhoto } id="photo">photography</div>
                     {/*nature, animals, places  */}
                     <div id="bullet">|</div>
-                    <div>crafts</div>
+                    <div onClick={ this.handleCraft } id="craft">crafts</div>
                     {/*rustic, coastal, modern, natural  */}
                 </section>
                 {/*onClick - change color of category word, drop down menu for that category*/}
