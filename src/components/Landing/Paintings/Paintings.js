@@ -8,7 +8,31 @@ class Paint extends Component {
   render() {
     return (
       <div className="paint">
-          Painting area
+          <h1>Paintings</h1>
+          <ul>
+              <li>
+                  <div>
+                    <div id="img"></div>
+                    <p id='price'></p>
+                    <p id="desc"></p>
+                  </div>
+              </li>
+              <li>
+                  <div>
+                    <div id="img"></div>
+                    <p id='price'></p>
+                    <p id="desc"></p>
+                  </div>
+              </li>
+              <li>
+                  <div>
+                    <div id="img"></div>
+                    <p id='price'></p>
+                    <p id="desc"></p>
+                  </div>
+              </li>
+          </ul>
+
       </div>
     );
   }
