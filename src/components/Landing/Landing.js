@@ -12,7 +12,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-          Welcome!
+          <h3>Welcome!</h3>
           <Paintings/>
           <Seasonal/>
           <Photos/>
