@@ -8,7 +8,6 @@ class Paint extends Component {
   render() {
     return (
       <div className="paint">
-          <h1>Paintings</h1>
           <ul>
               <li>
                   <div>
