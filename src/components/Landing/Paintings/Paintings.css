@@ -17,6 +17,12 @@
     border: 1px solid #F2E4CA;
     height: 250px;
     width: 250px;
+    box-shadow: 8px 8px 20px lightgray;
+}
+.paint ul li:hover{
+    height: 275px;
+    width: 275px;
+    transition-duration: 1s;
 }
 #img1{
     background: url(http://render.fineartamerica.com/images/images-print-search/images/artworkimages/medium/1/watercolor-rhino-pati-photography.jpg) center no-repeat;
