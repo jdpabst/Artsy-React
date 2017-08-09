@@ -11,21 +11,21 @@ class Paint extends Component {
           <ul>
               <li>
                   <div>
-                    <div id="img"></div>
+                    <div id="img1"></div>
+                    <p id='price'>$75.00</p>
+                    <p id="desc"></p>
+                  </div>
+              </li>
+              <li>
+                  <div>
+                    <div id="img2"></div>
                     <p id='price'></p>
                     <p id="desc"></p>
                   </div>
               </li>
               <li>
                   <div>
-                    <div id="img"></div>
-                    <p id='price'></p>
-                    <p id="desc"></p>
-                  </div>
-              </li>
-              <li>
-                  <div>
-                    <div id="img"></div>
+                    <div id="img3"></div>
                     <p id='price'></p>
                     <p id="desc"></p>
                   </div>
