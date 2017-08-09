@@ -27,6 +27,41 @@
     margin-right: auto;
     margin-top: 5px;
 }
-li p{
-    font-size: 15px;
+#img2{
+    background: url(https://s-media-cache-ak0.pinimg.com/236x/6a/c9/ed/6ac9ed73a8ba98c3ba88653af1adf5e0--painting-trees-tree-paintings.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+#img3{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/e2/65/0f/e2650fc34fa6681d8b12adad6d62e70e.jpg) center no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+li #price{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: right;
+    margin: 10px 10px 0 0;
+    color: #394A46;
+}
+
+li p:hover{
+    color: #394A46;
+    cursor: pointer;
+}
+li #desc{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    margin: -35px 0 0 10px;
+    font-weight: bold;
+    color: #394A46;
 }

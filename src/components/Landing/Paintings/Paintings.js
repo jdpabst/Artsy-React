@@ -13,21 +13,21 @@ class Paint extends Component {
                   <div>
                     <div id="img1"></div>
                     <p id='price'>$75.00</p>
-                    <p id="desc"></p>
+                    <p id="desc">Lorem Ipsum</p>
                   </div>
               </li>
               <li>
                   <div>
                     <div id="img2"></div>
-                    <p id='price'></p>
-                    <p id="desc"></p>
+                    <p id='price'>$75.00</p>
+                    <p id="desc">Lorem Ipsum</p>
                   </div>
               </li>
               <li>
                   <div>
                     <div id="img3"></div>
-                    <p id='price'></p>
-                    <p id="desc"></p>
+                    <p id='price'>$75.00</p>
+                    <p id="desc">Lorem Ipsum</p>
                   </div>
               </li>
           </ul>
