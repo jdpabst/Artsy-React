@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Paintings from './Paintings/Paintings'
+import Seasonal from './Seasonal/Seasonal'
 import './Landing.css';
 
 
@@ -11,6 +12,7 @@ class Landing extends Component {
       <div className="landing">
           Welcome!
           <Paintings/>
+          <Seasonal/>
       </div>
     );
   }
