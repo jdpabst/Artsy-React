@@ -60,13 +60,15 @@ class Header extends Component {
           </section>
           {/*//////DESKTOP//////  */}
           <section id="desktop_header">
-              <div id="desktop_control">
-                <div className="header_logo">Artsy</div>
-                <div className="desktop_menu">
-                    <div>HOME</div>
-                    <div>SHOP</div>
-                    <div>CART</div>
-                </div>
+              <div id="desktop_menu">
+                <ul>
+                    <li>HOME</li>
+                    <li>SHOP</li>
+                    <li>CART</li>
+                    <li>CONTACT</li>
+                    <li>ABOUT US</li>
+                    <li>CONNECT</li>
+                </ul>
               </div>
         </section>
         </div>
