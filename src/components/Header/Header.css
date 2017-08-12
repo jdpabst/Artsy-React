@@ -6,8 +6,10 @@
 }
 #mobile_header{
     width: 100%;
-     /* border-bottom: 0.5px solid #394A46;  */
-    height: 75px;
+    border: 2px solid black;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/e5/5a/0d/e55a0d4582862cb5bdd508962c737667--watercolor-agate-abstract-watercolor-art.jpg) center no-repeat;
+    background-size: cover;
+    height: 550px;
 }
 .ham{
     height: 50px;
