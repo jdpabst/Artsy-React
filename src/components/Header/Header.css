@@ -225,6 +225,11 @@
     right: 25px;
     top: 39px;
 }
+@media(max-width: 1357px){
+    #desktop_menu #second_ul li div{
+        display: none;
+    }
+}
 @media(min-width: 690px){
     #mobile_header{
         background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;

@@ -29,6 +29,8 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
+        <h1 className="header_logo">Artsy</h1>
+        <div id="water_color_bg"></div>
         <div className="quote_holder">
             <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
             <p id='author'>Ciatto di Bandone</p>
@@ -54,8 +56,6 @@ class Header extends Component {
                         <img id='img' src="https://static1.squarespace.com/static/573a1dd13c44d82cb701948c/57680f16725e25caf907775a/57680f16c534a58437d78054/1466437399798/instagram+logo.png"/>
                     </section>
                 </section>
-                <h1 className="header_logo">Artsy</h1>
-                <div id="water_color_bg"></div>
                 <div id="cart_items">0</div>
           </section>
           {/*//////DESKTOP//////  */}
