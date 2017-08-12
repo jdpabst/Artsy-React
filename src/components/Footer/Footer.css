@@ -1,9 +1,9 @@
 .footer{
-    height: 400px;
+    height: 130px;
     width: 100%;
     background: #F3F2F2;
     position: relative;
-    top: 630px;
+    top: 670px;
 }
 #splatters{
     background: url(https://t3.ftcdn.net/jpg/01/28/01/26/240_F_128012611_GOILXu0VGAKODLrc4C8URJGE70hNsCIy.jpg) center no-repeat;
@@ -11,4 +11,27 @@
     height: 100%;
     width: 100%;
     opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#categories{
+    /* border: 2px solid lime;  */
+    height: 50px;
+    width: 400px;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+#categories ul li{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    line-height: 40px;
 }
