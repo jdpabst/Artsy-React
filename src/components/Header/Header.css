@@ -11,6 +11,20 @@
      background-size: cover; 
     height: 600px;
 }
+.quote{
+    padding: 0;
+    margin: 0;
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    position: absolute;
+    top: calc(50% - 175px);
+    left: calc(50% - 175px);
+}
+#quote{
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+}
 .ham{
     height: 50px;
     width: 50px;

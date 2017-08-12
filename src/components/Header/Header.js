@@ -31,6 +31,10 @@ class Header extends Component {
       <div className="header">
           {/*//////MOBILE//////  */}
           <section id="mobile_header">
+                <div classname="quote">
+                    <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
+                    <p id='author'>Ciatto di Bandone</p>
+                </div>
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
