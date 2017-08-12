@@ -8,8 +8,43 @@
     width: 100%;
     /* border: 2px solid black; */
     background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
-     background-size: cover; 
+    background-size: cover; 
     height: 600px;
+}
+@media(min-width: 690px){
+    #mobile_header{
+        background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+        background-size: cover;
+        background-position-y: 0px;
+    }
+}
+@media(min-width: 860px){
+    #mobile_header{
+        background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+        background-size: cover;
+        background-position-y: -50px;
+    }
+}
+@media(min-width: 1055px){
+    #mobile_header{
+        background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+        background-size: cover;
+        background-position-y: -150px;
+    }
+}
+@media(min-width: 1440px){
+    #mobile_header{
+        background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+        background-size: cover;
+        background-position-y: -230px;
+    }
+}
+@media(min-width: 1500px){
+    #mobile_header{
+        background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+        background-size: cover;
+        background-position-y: -250px;
+    }
 }
 .quote_holder{
     padding: 0;
