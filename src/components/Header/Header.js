@@ -31,7 +31,7 @@ class Header extends Component {
       <div className="header">
           {/*//////MOBILE//////  */}
           <section id="mobile_header">
-                <div classname="quote">
+                <div className="quote_holder">
                     <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
                     <p id='author'>Ciatto di Bandone</p>
                 </div>
