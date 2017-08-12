@@ -104,7 +104,7 @@
     margin-right: auto;
     /* display: block; */
     font-size: 30px;
-    height: 60px;
+    height: 70px;
     width: 100%;
     color: black;
     text-align: center;
@@ -131,9 +131,10 @@
     height: 50px;
     width: 50px;
 }
-#socials img:nth-last-child(){
-    height: 40px;
-    width: 40px;
+#socials #img{
+    margin-top: 2px;
+    height: 45px;
+    width: 45px;
 }
 @keyframes rotate{
     from {transition: rotate(0deg)}
