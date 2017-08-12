@@ -7,8 +7,8 @@
 #mobile_header{
     width: 100%;
     /* border: 2px solid black; */
-    background: url(https://s-media-cache-ak0.pinimg.com/736x/e5/5a/0d/e55a0d4582862cb5bdd508962c737667--watercolor-agate-abstract-watercolor-art.jpg) center no-repeat;
-    background-size: cover;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/00/0b/7f/000b7f4365abe309146b9a4ee0e497e0.jpg) center no-repeat;
+     background-size: cover; 
     height: 600px;
 }
 .ham{
