@@ -1,0 +1,12 @@
+.insta{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: 625px;
+}
+.insta ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
