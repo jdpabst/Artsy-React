@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Flowers.css';
+
+import './Category1.css';
 
 
 class Flowers extends Component {
