@@ -11,18 +11,6 @@
     background-size: cover;
     height: 600px;
 }
-#mobile_header h2{
-    position: relative;
-    top: calc(50% - 115px);
-    width: 306px;
-    height: 230px;
-    /* border: 2px solid; */
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Amatic SC', cursive;
-    font-size: 57px;
-    font-weight: bold;
-}
 .ham{
     height: 50px;
     width: 50px;

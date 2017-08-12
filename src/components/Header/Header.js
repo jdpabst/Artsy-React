@@ -31,8 +31,6 @@ class Header extends Component {
       <div className="header">
           {/*//////MOBILE//////  */}
           <section id="mobile_header">
-              <h2>Good painting is like good cooking; it can be tasted, but not explained</h2>
-              <p>Maurice de vlamink</p>
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
