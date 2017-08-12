@@ -131,6 +131,10 @@
     height: 50px;
     width: 50px;
 }
+#socials img:nth-last-child(){
+    height: 40px;
+    width: 40px;
+}
 @keyframes rotate{
     from {transition: rotate(0deg)}
     to {transform:rotate(90deg)}
