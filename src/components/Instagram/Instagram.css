@@ -10,3 +10,27 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+#slot1{
+    height: 50%;
+    width: 50%;
+    background: url() center no-repeat;
+    background-size: cover;
+}
+#slot2{
+    height: 50%;
+    width: 50%;
+    background: url() center no-repeat;
+    background-size: cover;
+}
+#slot3{
+    height: 50%;
+    width: 50%;
+    background: url() center no-repeat;
+    background-size: cover;
+}
+#slot4{
+    height: 50%;
+    width: 50%;
+    background: url() center no-repeat;
+    background-size: cover;
+}
