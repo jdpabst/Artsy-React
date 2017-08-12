@@ -8,7 +8,8 @@ class Flowers extends Component {
   render() {
     return (
       <div className="flowers">
-        flowers
+        <div id='flower_cover'></div>
+        <div id="shop_now"><p id="flower_p">Shop Now</p></div>
       </div>
     );
   }

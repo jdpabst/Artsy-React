@@ -1,7 +1,14 @@
 .flowers{
     height: 400px;
     width: 100%;
-    background: #F2E4CA;
+    background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
+    background-size: cover;
     position: relative;
     top: 700px;
+}
+#flower_cover{
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: 0.4;
 }
