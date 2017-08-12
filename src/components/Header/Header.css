@@ -60,6 +60,25 @@
     left: calc(50% - 100px);
     top: -35px;
 }
+#cart_items{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #394A46; 
+    padding-top: 13.2px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Amatic SC', cursive; 
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 21px;
+    right: 20px;
+    top: 36px;
+    cursor: pointer;
+    transition: transform 1s;
+    
+}
 #mobile_menu{
     height: 150px;
     width: 130px;

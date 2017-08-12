@@ -43,6 +43,7 @@ class Header extends Component {
                 </section>
                 <h1 className="header_logo">Artsy</h1>
                 <div id="water_color_bg"></div>
+                <div id="cart_items">0</div>
           </section>
           {/*//////DESKTOP//////  */}
           <section id="desktop_header">
