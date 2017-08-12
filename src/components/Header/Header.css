@@ -54,13 +54,14 @@
     color: #394A46;
 }
 #water_color_bg{
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/c9/9e/37/c99e3719f8a521d49ad8c540b9a7b231.jpg) center no-repeat;
+    background: url(http://www.onlygfx.com/wp-content/uploads/2016/12/circle-watercolor-drop-7.png) center no-repeat;
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    opacity: 0.5;
+    height: 140px;
+    width: 140px;
     position: absolute;
-    left: calc(50% - 100px);
-    top: -35px;
+    left: calc(50% - 70px);
+    top: -13px;
 }
 #cart_items{
     height: 50px;
