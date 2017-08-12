@@ -272,4 +272,16 @@
     #desktop_header{
         display: block;
     }
+    .header_logo{
+        font-size: 55px;
+        position: absolute;
+        right: calc(50% - 40px);
+        top: 25px;
+    }
+    #water_color_bg{
+        left: calc(50% - 75px);
+    }
+    #desktop_menu{
+        width: 100%;
+    }
 }
