@@ -61,9 +61,11 @@ class Header extends Component {
           {/*//////DESKTOP//////  */}
           <section id="desktop_header">
               <div id="desktop_menu">
-                <ul>
+                <ul id="first_ul">
                     <li>HOME</li>
                     <li>SHOP</li>
+                </ul>
+                <ul id="second_ul">
                     <li>CART</li>
                     <li>CONTACT</li>
                     <li>ABOUT US</li>
