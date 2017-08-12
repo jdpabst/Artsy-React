@@ -14,6 +14,7 @@ class Insta extends Component {
           <li><div id='slot3'></div></li>
           <li><div id='slot4'></div></li>
         </ul>
+        <p id="insta_tag">@ArstyWatercolors</p>
       </div>
     );
   }
