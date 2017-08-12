@@ -64,12 +64,12 @@ class Header extends Component {
                 <ul id="first_ul">
                     <li>HOME</li>
                     <li>SHOP</li>
+                    <li>ABOUT US</li>
                 </ul>
                 <ul id="second_ul">
-                    <li>CART</li>
                     <li>CONTACT</li>
-                    <li>ABOUT US</li>
-                    <li>CONNECT</li>
+                    <li>Connect</li>
+                    <li>Cart<div id='desktop_cart'>0</div></li>
                 </ul>
               </div>
         </section>
