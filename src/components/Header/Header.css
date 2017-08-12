@@ -49,6 +49,15 @@
     top: 10px;
     color: #394A46;
 }
+#water_color_bg{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/c9/9e/37/c99e3719f8a521d49ad8c540b9a7b231.jpg) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: -35px;
+}
 #mobile_menu{
     height: 150px;
     width: 130px;
@@ -148,95 +157,4 @@
     width: 7px;
     position: relative;
 }
-#painting_drop{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    background: #FAF4E7;
-     display: none; 
-}
-#seasonal_drop{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    background: #FAF4E7;
-    display: none; 
-}
-#photo_drop{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    background: #FAF4E7;
-     display: none;  
-}
-#craft_drop{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    background: #FAF4E7;
-      display: none;   
-}
-#painting_drop ul{
-     /* border: 2px dotted black; */
-     padding-top: 10px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 50px;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-    color: #394A46;
-}
-#seasonal_drop ul{
-    padding-top: 10px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 50px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-    color: #394A46;
-}
-#photo_drop ul{
-    padding-top: 10px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 50px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-    color: #394A46;
-}
-#craft_drop ul{
-    padding-top: 10px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 50px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-    color: #394A46;
-}
-ul li{
-    font-family: 'Amatic SC', cursive;
-}
-ul li:hover{
-    color: #F3AE0B;
-    cursor: pointer;
-}
-@media(min-width: 650px){
-    #mobile_header{
-        display: none;
-    }
-    #desktop_header{
-        display: block;
-    }
-}
+

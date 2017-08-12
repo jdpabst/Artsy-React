@@ -10,10 +10,6 @@ class Header extends Component {
             drop: false
         }
         this.handleDropDown = this.handleDropDown.bind(this);
-        this.handlePaintings = this.handlePaintings.bind(this);
-        this.handleSeasonal = this.handleSeasonal.bind(this);
-        this.handlePhoto = this.handlePhoto.bind(this);
-        this.handleCraft = this.handleCraft.bind(this);
     }
 
     handleDropDown(){
@@ -24,78 +20,6 @@ class Header extends Component {
             })
         } else{
             document.getElementById('mobile_menu').style.display = 'none';
-            this.setState({
-                drop: false,
-            })
-        }
-    }
-    handlePaintings(){
-        if(!this.state.drop){
-            document.getElementById('painting_drop').style.display = 'block';
-            document.getElementById('paintings').style.color = '#394A46';
-            document.getElementById('seasonal_drop').style.display = 'none';
-            document.getElementById('photo_drop').style.display = 'none';
-            document.getElementById('craft_drop').style.display = 'none';
-            this.setState({
-                drop: true,
-            })
-        } else{
-            document.getElementById('painting_drop').style.display = 'none';
-            document.getElementById('paintings').style.color = 'white';
-            this.setState({
-                drop: false,
-            })
-        }
-    }
-    handleCraft(){
-        if(!this.state.drop){
-            document.getElementById('painting_drop').style.display = 'none';
-            document.getElementById('craft').style.color = '#394A46';
-            document.getElementById('seasonal_drop').style.display = 'none';
-            document.getElementById('photo_drop').style.display = 'none';
-            document.getElementById('craft_drop').style.display = 'block';
-            this.setState({
-                drop: true,
-            })
-        } else{
-            document.getElementById('craft_drop').style.display = 'none';
-            document.getElementById('craft').style.color = 'white';
-            this.setState({
-                drop: false,
-            })
-        }
-    }
-    handleSeasonal(){
-        if(!this.state.drop){
-            document.getElementById('seasonal_drop').style.display = 'block';
-            document.getElementById('seasonal').style.color = '#394A46';
-            document.getElementById('painting_drop').style.display = 'none';
-            document.getElementById('photo_drop').style.display = 'none';
-            document.getElementById('craft_drop').style.display = 'none';
-            this.setState({
-                drop: true,
-            })
-        } else{
-            document.getElementById('seasonal_drop').style.display = 'none';
-            document.getElementById('seasonal').style.color = 'white';
-            this.setState({
-                drop: false,
-            })
-        }
-    }
-    handlePhoto(){
-        if(!this.state.drop){
-            document.getElementById('photo_drop').style.display = 'block';
-            document.getElementById('photo').style.color = '#394A46';
-            document.getElementById('seasonal_drop').style.display = 'none';
-            document.getElementById('painting_drop').style.display = 'none';
-            document.getElementById('craft_drop').style.display = 'none';
-            this.setState({
-                drop: true,
-            })
-        } else{
-            document.getElementById('photo_drop').style.display = 'none';
-            document.getElementById('photo').style.color = 'white';
             this.setState({
                 drop: false,
             })
@@ -118,6 +42,7 @@ class Header extends Component {
                     <div>CART</div>
                 </section>
                 <h1 className="header_logo">Artsy</h1>
+                <div id="water_color_bg"></div>
           </section>
           {/*//////DESKTOP//////  */}
           <section id="desktop_header">
@@ -129,57 +54,8 @@ class Header extends Component {
                     <div>CART</div>
                 </div>
               </div>
-              <div id="categories_holder">
-                <section id="categories">
-                    <div onClick = { this.handlePaintings } id="paintings">paintings</div> 
-                    {/*oil, watercolor, abstract  */}
-                    <div id="bullet">|</div>
-                    <div onClick={ this.handleSeasonal } id="seasonal">seasonal</div>
-                    {/*christmas, halloween, fall, spring, summer  */}
-                    <div id="bullet">|</div>
-                    <div onClick={ this.handlePhoto } id="photo">photography</div>
-                    {/*nature, animals, places  */}
-                    <div id="bullet">|</div>
-                    <div onClick={ this.handleCraft } id="craft">crafts</div>
-                    {/*rustic, coastal, modern, natural  */}
-                </section>
-                {/*onClick - change color of category word, drop down menu for that category*/}
-                <section id="painting_drop">
-                    <ul>
-                        <li>oil</li>
-                        <li>watercolor</li>
-                        <li>abstract</li>
-                        <li>all</li>
-                    </ul>
-                </section>
-                <section id="seasonal_drop">
-                    <ul>
-                        <li>christmas</li>
-                        <li>fall</li>
-                        <li>halloween</li>
-                        <li>spring</li>
-                        <li>summer</li>
-                        <li>all</li>
-                    </ul>
-                </section>
-                <section id="photo_drop">
-                    <ul>
-                        <li>nature</li>
-                        <li>animals</li>
-                        <li>places</li>
-                        <li>all</li>
-                    </ul>
-                </section>
-                <section id="craft_drop">
-                    <ul>
-                        <li>rustic</li>
-                        <li>modern</li>
-                        <li>coastal</li>
-                    </ul>
-                </section>
-              </div>
-          </section>
-      </div>
+        </section>
+        </div>
     );
   }
 }
