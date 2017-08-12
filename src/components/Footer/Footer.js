@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        Footer Area
+        <div id="splatters"></div>
       </div>
     );
   }
