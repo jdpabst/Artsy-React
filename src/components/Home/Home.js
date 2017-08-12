@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <div className="home">
           <Header/>
-          {/* <Landing/> */}
+          <Landing/> 
           {/* { router } */}
       </div>
     );
