@@ -207,10 +207,6 @@
     height: 45px;
     width: 45px;
 }
-@keyframes rotate{
-    from {transition: rotate(0deg)}
-    to {transform:rotate(90deg)}
-}
 
 /* DESKTOP  */
 #desktop_header{
@@ -279,3 +275,11 @@
     position: relative;
 }
 
+@media(min-width: 720px){
+    #mobile_header{
+        display: none;
+    }
+    #desktop_header{
+        display: block;
+    }
+}
