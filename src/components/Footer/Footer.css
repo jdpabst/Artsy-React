@@ -1,0 +1,50 @@
+.insta{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: 625px;
+}
+.insta ul{
+    height: 400px;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    /* border: 2px solid black; */
+}
+.insta ul #slot1{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid lime; */
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/31/ba/37/31ba3734edf85c123c33f5f4e76fc442--watercolor-lion-watercolor-animals.jpg) center no-repeat;
+    background-size: cover;
+}
+.insta ul li #slot2{
+    height: 200px;
+    width: 200px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQawJjazw3S07-mxZ9TeioO-HGZLgc8L_NYOUHo_lMsUpd9bbVrCw) center no-repeat;
+    background-size: cover;
+}
+.insta ul li #slot3{
+    height: 200px;
+    width: 200px;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/9a/96/c0/9a96c032a8a9f789345868ebae77702c--painting-fox-wolf-watercolor-painting.jpg) center no-repeat;
+    background-size: cover;
+}
+.insta ul li #slot4{
+    height: 200px;
+    width: 200px;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/28/9f/17/289f171bc96b256f44f234b77414ea3d--watercolor-illustration-watercolor-ideas.jpg) center no-repeat;
+    background-size: cover;
+}
+#insta_tag{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: center;
+}
