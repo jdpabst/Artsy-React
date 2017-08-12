@@ -16,11 +16,11 @@
     margin: 0;
     height: 185px;
     width: 95%;
-     border: 1px solid; 
+     /* border: 1px solid;  */
     position: absolute;
     top: calc(50% - 130.5px);
     left: 5%;
-    line-height: 60px;
+    line-height: 70px;
 }
 #quote{
     font-size: 50px;
@@ -33,13 +33,18 @@
     font-size: 36px;
     font-family: 'Miss Fajardose', cursive;
     position: absolute;
-    top: 112px;
+    top: 130px;
     right: 14px;
 }
 @media(min-width: 712px){
     .quote_holder{
         width: 480px;
+        top: calc(50% - 92.5px);
         left: calc(50% - 240px);
+    }
+    #quote{
+        font-size: 60px;
+
     }
 }
 .ham{
