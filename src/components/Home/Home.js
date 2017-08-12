@@ -5,6 +5,7 @@ import Landing from './../Landing/Landing.js';
 import Category1 from './../Category1/Category1.js';
 import Category2 from './../Category2/Category2.js';
 import Instagram from './../Instagram/Instagram.js';
+import Footer from './../Footer/Footer.js';
 import './Home.css';
 
 
@@ -18,6 +19,7 @@ class Home extends Component {
           <Category1/>
           <Category2/>
           <Instagram/>
+          <Footer/>
           {/* { router } */}
       </div>
     );
