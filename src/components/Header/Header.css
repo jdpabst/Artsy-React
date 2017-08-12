@@ -127,6 +127,10 @@
     margin-right: auto;
     position: relative;
 }
+#socials img{
+    height: 50px;
+    width: 50px;
+}
 @keyframes rotate{
     from {transition: rotate(0deg)}
     to {transform:rotate(90deg)}
