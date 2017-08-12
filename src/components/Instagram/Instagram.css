@@ -6,29 +6,31 @@
     top: 625px;
 }
 .insta ul{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-#slot1{
+li #slot1{
+    height: 50%;
+    width: 50%;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/31/ba/37/31ba3734edf85c123c33f5f4e76fc442--watercolor-lion-watercolor-animals.jpg) center no-repeat;
+    background-size: cover;
+}
+li #slot2{
     height: 50%;
     width: 50%;
     background: url() center no-repeat;
     background-size: cover;
 }
-#slot2{
+li #slot3{
     height: 50%;
     width: 50%;
     background: url() center no-repeat;
     background-size: cover;
 }
-#slot3{
-    height: 50%;
-    width: 50%;
-    background: url() center no-repeat;
-    background-size: cover;
-}
-#slot4{
+li #slot4{
     height: 50%;
     width: 50%;
     background: url() center no-repeat;
