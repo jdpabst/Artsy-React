@@ -29,12 +29,12 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
+        <div className="quote_holder">
+            <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
+            <p id='author'>Ciatto di Bandone</p>
+        </div>
           {/*//////MOBILE//////  */}
           <section id="mobile_header">
-                <div className="quote_holder">
-                    <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
-                    <p id='author'>Ciatto di Bandone</p>
-                </div>
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
