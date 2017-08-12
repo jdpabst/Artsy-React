@@ -15,11 +15,11 @@
     padding: 0;
     margin: 0;
     height: 185px;
-    width: 380px;
-    /* border: 1px solid; */
+    width: 95%;
+     border: 1px solid; 
     position: absolute;
     top: calc(50% - 130.5px);
-    left: calc(50% - 190px);
+    left: 5%;
     line-height: 60px;
 }
 #quote{
@@ -35,6 +35,12 @@
     position: absolute;
     top: 112px;
     right: 14px;
+}
+@media(min-width: 712px){
+    .quote_holder{
+        width: 480px;
+        left: calc(50% - 240px);
+    }
 }
 .ham{
     height: 50px;
