@@ -211,6 +211,10 @@
     margin-top: 40px;
     font-family: 'Amatic SC', cursive; 
 }
+#desktop_menu ul li:hover{
+    cursor: pointer;
+    color: #FED1A9;
+}
 #desktop_menu #second_ul li div{
     height: 30px;
     width: 30px;
