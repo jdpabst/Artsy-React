@@ -6,16 +6,16 @@
 }
 #mobile_header{
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background: url(https://s-media-cache-ak0.pinimg.com/736x/e5/5a/0d/e55a0d4582862cb5bdd508962c737667--watercolor-agate-abstract-watercolor-art.jpg) center no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 600px;
 }
 .ham{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 1px solid #394A46; 
+    border: 1px solid black; 
     padding-top: 13.2px;
     position: absolute;
     left: 20px;
@@ -32,7 +32,7 @@
     height: 4px;
     width: 30px;
     border-radius: 3px;
-    background: #394A46;
+    background: black;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -51,7 +51,7 @@
     right: calc(50% - 56px);
     z-index: 10;
     top: 16px;
-    color: #394A46;
+    color: black;
 }
 #water_color_bg{
     background: url(http://dlolleyshelp.weebly.com/uploads/3/2/0/9/32097899/published/watercolor-splash.png?1484526697) center no-repeat;
@@ -67,7 +67,7 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 1px solid #394A46; 
+    border: 1px solid black; 
     padding-top: 13.2px;
     position: absolute;
     text-align: center;
@@ -105,7 +105,7 @@
     text-align: center;
     vertical-align: middle;
     line-height: 45px;
-    color: #394A46;
+    color: black;
 }
 #mobile_menu div:hover{
     background: #F3AE0B;
@@ -145,7 +145,7 @@
 .desktop_menu div{
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    color: #394A46;
+    color: black;
 }
 .desktop_menu div:hover{
     cursor: pointer;
@@ -173,7 +173,7 @@
     color: white;
 }
 #categories div:hover:nth-child(odd){
-    color: #394A46;
+    color: black;
     cursor: pointer;
 }
 #bullet{
