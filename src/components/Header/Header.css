@@ -26,14 +26,15 @@
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
     position: absolute;
-    top: 0;
+    top: -50px;
     left: 0;
 }
 #author{
-    font-size: 25px;
+    font-size: 36px;
     font-family: 'Miss Fajardose', cursive;
-    top: 100px;
-    right: 0;
+    position: absolute;
+    top: 112px;
+    right: 14px;
 }
 .ham{
     height: 50px;
