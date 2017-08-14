@@ -1,11 +1,11 @@
 .footer{
-    height: 130px;
+    height: 110px;
     width: 100%;
     background: #F3F2F2;
     position: relative;
     top: 625px;
 }
-#splatters{
+/* #splatters{
     background: url(https://t3.ftcdn.net/jpg/01/28/01/26/240_F_128012611_GOILXu0VGAKODLrc4C8URJGE70hNsCIy.jpg) center no-repeat;
     background-size: cover;
     height: 100%;
@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-}
+} */
 #categories{
     /* border: 2px solid lime;  */
     height: 50px;
@@ -34,4 +34,10 @@
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
     line-height: 40px;
+}
+h4{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
 }
