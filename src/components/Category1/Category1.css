@@ -6,6 +6,9 @@
     position: relative;
     top: 625px;
 }
+#gif1{
+    display: none;
+}
 #flower_cover{
     height: 100%;
     width: 100%;
@@ -32,4 +35,10 @@
 #shop_now:hover{
     background: white;
     cursor: pointer;
+}
+
+@media(min-width: 760px){
+    #gif1{
+        display: block;
+    }
 }
