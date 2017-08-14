@@ -43,15 +43,17 @@
 @media(min-width: 760px){
     .flowers{
         background: white;
-        border: 2px solid black;
+         border: 2px solid black; 
         height: 500px;
-        width: 760px;
+        width: 730px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #gif1{
         display: block;
         position: absolute;
-        top: 50px;
-        left: 15px;
+        top: 0;
+        left: 0;
         height: 225px;
     }
     #flower_desktop{
@@ -61,7 +63,7 @@
         height: 500px;
         width: 500px;
         position: absolute;
-        top: 50px;
-        right: 15px;
+        top: 0;
+        right: 0;
     }
 }
