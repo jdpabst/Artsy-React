@@ -45,15 +45,23 @@
         background: white;
         border: 2px solid black;
         height: 500px;
+        width: 760px;
     }
     #gif1{
         display: block;
         position: absolute;
         top: 50px;
-        left: 80px;
+        left: 15px;
         height: 225px;
     }
     #flower_desktop{
         display: block;
+        background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        top: 50px;
+        right: 15px;
     }
 }
