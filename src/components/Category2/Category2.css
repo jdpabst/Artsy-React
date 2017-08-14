@@ -33,3 +33,9 @@
     background: white;
     cursor: pointer;
 }
+
+@media(min-width: 760px){
+    .animals{
+        display: none;
+    }
+}
