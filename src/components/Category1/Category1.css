@@ -59,6 +59,25 @@
 #shop_desktop{
     display: none;
 }
+#filler_img1{
+    height:150px;
+    width: 230px;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/63/44/50/6344500b264bd9d10bcad16abf16710f--deer-drawing-wolf-face-drawing.jpg) center no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+    position: absolute;
+    left: 151px;
+}
+#filler_img2{
+    height:150px;
+    width: 230px;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/48/da/ee/48daee1596e450d2050aba856abcd1e4.jpg) center no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+    position: absolute;
+    bottom: 0;
+    right: 151px;
+}
 
 @media(min-width: 760px){
     .flowers{

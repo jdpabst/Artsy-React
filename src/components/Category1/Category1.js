@@ -10,12 +10,14 @@ class Flowers extends Component {
       <div className="flowers">
         <div id="flower_desktop"></div>
         <img src="https://media.giphy.com/media/dJhRyqOtXc3MA/giphy.gif" id="gif1"/>
+        <div id="filler_img1"></div>
         <div id='flower_cover'></div>
         <div id="shop_desktop"><p>Shop Now</p></div>
         <div id="shop_now"><p id="flower_p">Shop Now</p></div>
 
         {/* // desktop view // */}
           <div id="animal_desktop"></div>
+          <div id="filler_img2"></div>
           <img src="https://media.giphy.com/media/4yr4MpEIJg4DK/giphy.gif" id="gif2"/>
           <div id='flower_cover'></div>
           <div id="shop_desktop2"><p>Shop Now</p></div>
