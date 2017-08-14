@@ -8,6 +8,7 @@ class Insta extends Component {
   render() {
     return (
       <div className="insta">
+        <div id="splash"></div>
         <ul>
           <li><div id='slot1'></div></li>
           <li><div id='slot2'></div></li>

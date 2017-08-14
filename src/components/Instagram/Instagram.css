@@ -1,19 +1,30 @@
 .insta{
-    height: 400px;
+    height: 550px;  
     width: 100%;
     background-size: cover;
     position: relative;
     top: 625px;
+    /* border: 2px solid black; */
+}
+#splash{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/21/89/1a/21891ab5801dea2b76477e8c1a670001.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left:0;
 }
 .insta ul{
     height: 400px;
     width: 400px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-     display: flex;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap; 
     /* border: 2px solid black; */
@@ -46,5 +57,10 @@
 #insta_tag{
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
+    width: 138px;
+    /* border: 2px solid; */
     text-align: center;
+    position: absolute;
+    bottom: 48px;
+    left: calc(50% - 69px);
 }
