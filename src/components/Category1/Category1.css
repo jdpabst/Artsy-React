@@ -68,6 +68,7 @@
     background-position-y: -30px;
     position: absolute;
     left: 151px;
+    display: none;
 }
 #filler_img2{
     height: 150px;
@@ -78,6 +79,7 @@
     position: absolute;
     bottom: 0;
     right: 193px;
+    display: none;
 }
 
 @media(min-width: 760px){
@@ -157,6 +159,12 @@
         display: block;
     }
     #gif2{
+        display: block;
+    }
+    #filler_img1{
+        display: block;
+    }
+    #filler_img2{
         display: block;
     }
 }
