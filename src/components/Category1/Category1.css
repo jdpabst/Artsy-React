@@ -40,20 +40,28 @@
     cursor: pointer;
 }
 #animal_desktop{
+    display: none;
     background: url(https://ae01.alicdn.com/kf/HTB1NGu0NVXXXXb.XVXXq6xXFXXX3/Sea-Turtle-Watercolor-font-b-Art-b-font-Print-Home-Decor-Marine-font-b-Animals-b.jpg) center no-repeat;
     background-size: cover;
     height: 350px;
-    width: 380px;
+    width: 378px;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+#gif2{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
 }
 
 @media(min-width: 760px){
     .flowers{
         background: white;
-        border: 2px solid black; 
-        height: 500px;
+        /* border: 2px solid black;  */
+        height: 504px;
         width: 760px;
         margin-left: auto;
         margin-right: auto;
@@ -71,9 +79,15 @@
         background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
         background-size: cover;
         height: 350px;
-        width: 380px;
+        width: 378px;
         position: absolute;
         top: 0;
         right: 0;
+    }
+    #animal_desktop{
+        display: block;
+    }
+    #gif2{
+        display: block;
     }
 }
