@@ -64,3 +64,28 @@
     bottom: 48px;
     left: calc(50% - 69px);
 }
+
+@media(max-width: 408px){
+    .insta ul{
+        height: 300px;
+        width: 300px;
+        top: calc(50% - 150px);
+        left: calc(50% - 150px);
+    }
+    .insta ul #slot1{
+        height: 150px;
+        width: 150px;
+    }
+    .insta ul li #slot2{
+        height: 150px;
+        width: 150px;
+    }
+    .insta ul li #slot3{
+        height: 150px;
+        width: 150px;
+    }
+    .insta ul li #slot4{
+        height: 150px;
+        width: 150px;
+    }
+}

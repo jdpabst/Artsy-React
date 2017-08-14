@@ -60,6 +60,9 @@
 #shop_desktop{
     display: none;
 }
+#shop_desktop2{
+    display: none;
+}
 #filler_img1{
     height:150px;
     width: 230px;
