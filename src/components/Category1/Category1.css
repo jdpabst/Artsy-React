@@ -67,6 +67,9 @@
         margin-right: auto;
         top: 575px;
     }
+    #flower_cover{
+        display: none;
+    }
     #gif1{
         display: block;
         position: absolute;
@@ -84,7 +87,9 @@
         top: 0;
         right: 0;
     }
-    
+    #shop_now{
+        display: none;
+    }
     #animal_desktop{
         display: block;
     }
