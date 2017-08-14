@@ -7,13 +7,14 @@
     /* border: 2px solid black; */
 }
 #splash{
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/21/89/1a/21891ab5801dea2b76477e8c1a670001.jpg) center no-repeat;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/dd/ee/c4/ddeec4f4bf4924d8a847d69b932a5b61.jpg) center no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
     height: 100%;
     width: 100%;
     position: relative;
     z-index: 0;
-    opacity: 0.3;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     left:0;

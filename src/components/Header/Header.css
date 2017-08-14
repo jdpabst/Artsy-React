@@ -11,6 +11,11 @@
     background-size: cover; 
     height: 600px;
 }
+/* @media(max-width: 500px){
+    #mobile_header{
+        height: 760px;
+    }
+} */
 .quote_holder{
     padding: 0;
     margin: 0;
@@ -82,15 +87,16 @@
     /* font-family: 'Satisfy', cursive; */
     /* font-family: 'Amatic SC', cursive; */
     /* font-weight: bold; */
-    font-size: 76px;
+    font-size: 78px;
     position: absolute;
     position: absolute;
     right: calc(50% - 56px);
     z-index: 10;
     top: 16px;
     color: black;
+    font-weight: bold;
 }
-#water_color_bg{
+/* #water_color_bg{
     background: url(http://static.showit.co/800/UM-TUbMTRByw5o4IVqNetg/48283/watercolor_circle_2.png) center no-repeat;
     background-size: cover;
     opacity: 0.5;
@@ -100,7 +106,7 @@
     z-index: 9;
     left: calc(50% - 70px);
     top: 0px;
-}
+} */
 #cart_items{
     height: 50px;
     width: 50px;
@@ -181,6 +187,7 @@
     background-size: cover; 
     height: 600px;
     display: none;
+    /* background-position-y: -150px; */
 }
 #desktop_menu{
     height: 80px;
@@ -210,6 +217,7 @@
 #desktop_menu ul li{
     margin-top: 40px;
     font-family: 'Amatic SC', cursive; 
+    font-weight: bold;
 }
 #desktop_menu ul li:hover{
     cursor: pointer;
@@ -234,7 +242,7 @@
         display: none;
     }
 }
-@media(min-width: 690px){
+/* @media(min-width: 690px){
     #mobile_header{
         background-position-y: 0px;
     }
@@ -258,7 +266,7 @@
     #desktop_header{
         background-position-y: -250px;
     }
-}
+} */
 @media(min-width: 720px){
     #mobile_header{
         display: none;
