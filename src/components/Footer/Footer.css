@@ -1,7 +1,7 @@
 .footer{
     height: 110px;
     width: 100%;
-    background: #F3F2F2;
+    background: black;
     position: relative;
     top: 625px;
 }
@@ -34,6 +34,13 @@
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
     line-height: 40px;
+    color: white;
+}
+.footer #socials{
+    filter: brightness(0) invert(1);
+}
+#socials:hover{
+    cursor: pointer;
 }
 .footer h4{
     text-align: center;
