@@ -55,6 +55,7 @@
     bottom: 0;
     right: 0;
     height: 150px;
+    width: 188px;
 }
 #shop_desktop{
     display: none;
@@ -69,14 +70,14 @@
     left: 151px;
 }
 #filler_img2{
-    height:150px;
-    width: 230px;
-    background: url(https://newmexicomtngirl.files.wordpress.com/2017/01/wms-wc-wintermtn-sunrise.jpg?w=450) center no-repeat;
+    height: 150px;
+    width: 184px;
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/bear-calm-amy-hamilton.jpg) center no-repeat;
     background-size: cover;
     background-position-y: -20px;
     position: absolute;
     bottom: 0;
-    right: 151px;
+    right: 193px;
 }
 
 @media(min-width: 760px){
