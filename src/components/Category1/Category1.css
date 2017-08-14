@@ -41,6 +41,11 @@
 }
 
 @media(min-width: 760px){
+    .flowers{
+        background: white;
+        border: 2px solid black;
+        height: 500px;
+    }
     #gif1{
         display: block;
     }
