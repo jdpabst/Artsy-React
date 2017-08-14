@@ -48,6 +48,10 @@
     }
     #gif1{
         display: block;
+        position: absolute;
+        top: 50px;
+        left: 80px;
+        height: 225px;
     }
     #flower_desktop{
         display: block;
