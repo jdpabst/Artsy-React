@@ -6,6 +6,9 @@
     position: relative;
     top: 625px;
 }
+#flower_desktop{
+    display: none;
+}
 #gif1{
     display: none;
 }
@@ -39,6 +42,9 @@
 
 @media(min-width: 760px){
     #gif1{
+        display: block;
+    }
+    #flower_desktop{
         display: block;
     }
 }

@@ -7,12 +7,11 @@ class Flowers extends Component {
 
   render() {
     return (
-      <div className="cat1">
+      <div className="flowers">
+        <div id="flower_desktop"></div>
         <img src="https://media.giphy.com/media/dJhRyqOtXc3MA/giphy.gif" id="gif1"/>
-        <div className="flowers">
-          <div id='flower_cover'></div>
-          <div id="shop_now"><p id="flower_p">Shop Now</p></div>
-        </div>
+        <div id='flower_cover'></div>
+        <div id="shop_now"><p id="flower_p">Shop Now</p></div>
       </div>
     );
   }
