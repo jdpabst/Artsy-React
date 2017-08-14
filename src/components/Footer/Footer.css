@@ -35,9 +35,17 @@
     font-size: 30px;
     line-height: 40px;
 }
-h4{
+.footer h4{
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     font-weight: bold;
+}
+@media(max-width: 410px){
+    #categories{
+        width: 320px;
+    }
+    #categories ul li{
+        font-size: 25px;
+    }
 }
