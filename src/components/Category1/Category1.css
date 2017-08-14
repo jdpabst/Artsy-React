@@ -56,6 +56,9 @@
     right: 0;
     height: 150px;
 }
+#shop_desktop{
+    display: none;
+}
 
 @media(min-width: 760px){
     .flowers{
@@ -69,6 +72,46 @@
     }
     #flower_cover{
         display: none;
+    }
+    #shop_desktop{
+        display: block;
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        position:absolute;
+        right: 132px;
+        padding-top: 5px;
+        bottom: 157px;
+        border: 1px solid black;
+    }
+    #shop_desktop p{
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #shop_desktop:hover{
+        background: white;
+        cursor: pointer;
+    }
+    #shop_desktop2{
+        display: block;
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        position:absolute;
+        left: 139px;
+        padding-top: 5px;
+        bottom: 4px;
+        border: 1px solid black;
+    }
+    #shop_desktop2 p{
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #shop_desktop2:hover{
+        background: white;
+        cursor: pointer;
     }
     #gif1{
         display: block;
