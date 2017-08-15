@@ -32,8 +32,10 @@
 }
 #shop_now p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
+    vertical-align: middle;
+    line-height: 25px;
 }
 #shop_now:hover{
     background: white;
@@ -111,8 +113,10 @@
     }
     #shop_desktop p{
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
+        vertical-align: middle;
+        line-height: 25px;
     }
     #shop_desktop:hover{
         background: white;
@@ -131,8 +135,10 @@
     }
     #shop_desktop2 p{
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
+        vertical-align: middle;
+        line-height: 25px;
     }
     #shop_desktop2:hover{
         background: white;

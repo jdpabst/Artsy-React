@@ -25,9 +25,11 @@
     line-height: 50px;
 }
 #shop_now p{
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
     font-weight: bold;
+    vertical-align: middle;
+    line-height: 47px;
 }
 #shop_now:hover{
     background: white;
