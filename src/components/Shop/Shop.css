@@ -23,3 +23,14 @@
     background: url(https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg) center no-repeat;
     background-size: cover;
 }
+@media(min-width: 720px){
+    #img_slider{
+        height: 400px;
+        width: 400px;
+        margin-top: 150px;
+    }
+    #img_slider div{
+        height: 400px;
+        width: 400px;
+    }
+}
