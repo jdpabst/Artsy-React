@@ -162,6 +162,16 @@
     height: 45px;
     width: 45px;
 }
+@media(max-width: 350px){
+    .header_logo{
+        font-size: 40px;
+        top: 40px;
+    }
+    #quote{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
 
 /* DESKTOP  */
 #desktop_header{
