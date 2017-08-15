@@ -195,7 +195,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     height: 80px;
-    width: 45%;
+    width: 40%;
     /* border: 2px solid black; */
 }
 #desktop_menu #first_ul{
@@ -228,7 +228,7 @@
     line-height: 30px;
     position: absolute;
     right: 30px;
-    top: 30px;
+    top: 41px;
 }
 @media(max-width: 1357px){
     #desktop_menu #second_ul li div{
