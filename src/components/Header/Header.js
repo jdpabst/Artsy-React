@@ -30,7 +30,6 @@ class Header extends Component {
     return (
       <div className="header">
         <h1 className="header_logo">Artsy</h1>
-        <div id="water_color_bg"></div>
         <div className="quote_holder">
             <h2 id="quote">Every painting is a voyage into a sacred harbor</h2>
             <p id='author'>Ciatto di Bandone</p>
