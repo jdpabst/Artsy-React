@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 
@@ -44,7 +44,7 @@ class Header extends Component {
                 </div>
                 <section id="mobile_menu">
                     <div>HOME</div>
-                    <div>SHOP</div>
+                    <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><div>SHOP</div></Link>
                     <div>CART</div>
                     <div>CONTACT</div>
                     <div>ABOUT US</div>
@@ -63,7 +63,7 @@ class Header extends Component {
               <div id="desktop_menu">
                 <ul id="first_ul">
                     <li>HOME</li>
-                    <li>SHOP</li>
+                    <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
                     <li>ABOUT US</li>
                 </ul>
                 <ul id="second_ul">
