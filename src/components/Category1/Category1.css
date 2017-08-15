@@ -31,7 +31,7 @@
     line-height: 50px;
 }
 #shop_now p{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
 }
@@ -110,7 +110,7 @@
         border: 1px solid black;
     }
     #shop_desktop p{
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         font-weight: bold;
     }
@@ -130,7 +130,7 @@
         border: 1px solid black;
     }
     #shop_desktop2 p{
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         font-weight: bold;
     }

@@ -8,7 +8,7 @@ class Landing extends Component {
     return (
       <div className="landing">
           <div id="splash1"></div>
-          <h3 id="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+          <h3 id="about_paragraph">Lorem ipsum dolor sit amet, sit risus sed neque, tempor dolor, commodo non fermentum quis, amet eget nullam ullamcorper, inceptos fringilla gravida sed vivamus enim cum.</h3>
       </div>
     );
   }
