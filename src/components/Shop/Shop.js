@@ -63,7 +63,7 @@ class Shop extends Component {
               <p>QTY</p>
               <div id="qty_picker"></div>
           </section>
-            <div id="add_bttn">ADD TO CART</div> 
+            {/* <div id="add_bttn">ADD TO CART</div>  */}
       </div>
     );
   }
