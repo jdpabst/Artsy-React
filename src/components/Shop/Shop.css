@@ -80,11 +80,11 @@
         width: 400px;
     }
     #content_area{
-        height: 750px;
+        height: 825px;
         width: 720px;
     }
     #painting_info{
-        bottom: 320px;
+        bottom: 350px;
         width: 150px;
         /* border: 1px solid black; */
         right: 0;
