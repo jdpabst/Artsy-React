@@ -31,6 +31,15 @@ class Shop extends Component {
                 </section>
                 <div id="cart_items">0</div>
           </section>
+          <section id="content_area">
+              <div id="img_slider">
+                  {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}
+                  <img src=""/>
+                  <img src=""/>
+                  <img src=""/>
+                  <img src=""/>
+              </div>
+          </section>
       </div>
     );
   }
