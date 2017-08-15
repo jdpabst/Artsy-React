@@ -68,8 +68,8 @@ class Header extends Component {
                 </ul>
                 <ul id="second_ul">
                     <li>CONTACT</li>
-                    <li>Connect</li>
-                    <li>Cart<div id='desktop_cart'>0</div></li>
+                    <li>CONNECT</li>
+                    <li>CART<div id='desktop_cart'>0</div></li>
                 </ul>
               </div>
         </section>

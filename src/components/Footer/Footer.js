@@ -22,7 +22,7 @@ class Footer extends Component {
             <img src="https://www.cycleto.ca/sites/default/files/twitter-icon-circle-logo.png"/>
             <img id='img' src="https://static1.squarespace.com/static/573a1dd13c44d82cb701948c/57680f16725e25caf907775a/57680f16c534a58437d78054/1466437399798/instagram+logo.png"/>
         </section>
-        <h4>Copyright arsty.jdpabst.com</h4>
+        <h4>&copy; arsty.jdpabst.com</h4>
       </div>
     );
   }
