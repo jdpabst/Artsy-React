@@ -1,5 +1,6 @@
 #mobile_header{
     background: white;
+    height: 140px;
 }
 #img_slider{
     height: 250px;
@@ -8,13 +9,13 @@
     margin-left: auto; 
     margin-right: auto;
     position: relative;
+    margin-top: 75px;
 }
 #img_slider div{
     height: 250px;
     width: 250px;
 }
 #img_slider .img1{
-    
     background: url(https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg) center no-repeat;
     background-size: cover;
 }
