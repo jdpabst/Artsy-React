@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Slider } from 'react-slick';
+import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
+
 import './Shop.css';
 
 
 class Shop extends Component {
 
   render() {
-    var settings = {
+    let settings = {
         dots: true,
         infinite: true,
         speed: 500,
