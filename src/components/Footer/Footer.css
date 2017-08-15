@@ -31,9 +31,9 @@
     margin-bottom: 15px;
 }
 #categories ul li{
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
     color: white;
 }
 .footer #socials{
