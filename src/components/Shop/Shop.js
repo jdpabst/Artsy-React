@@ -34,10 +34,8 @@ class Shop extends Component {
           <section id="content_area">
               <div id="img_slider">
                   {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}
-                  <img src=""/>
-                  <img src=""/>
-                  <img src=""/>
-                  <img src=""/>
+                  <img src="https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg"/>
+                  <img src="https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg"/>
               </div>
           </section>
       </div>
