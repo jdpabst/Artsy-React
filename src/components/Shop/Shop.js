@@ -53,6 +53,9 @@ class Shop extends Component {
                 <h2>Jessica Rowe</h2>
                 <p>$362.00</p>
             </div>
+            <div id="painting_paragraph">
+                <p>Original watercolor painting on archival watercolor paper, signed on the back by Jessica Rowe. Matted, framed and ready-to-hang.</p>
+            </div>
           </section>
       </div>
     );

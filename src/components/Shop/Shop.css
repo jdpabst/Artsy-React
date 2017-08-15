@@ -6,8 +6,8 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid lightgray;
-    height: 700px;
+    /* border: 1px solid lightgray; */
+    height: 650px;
     width: 100%;
 }
 /*////////////////////////////SLIDER////////////////////////////////////////  */
@@ -34,13 +34,13 @@
 }
 
 
-/*//////////////////////////////PAINTING INFO/////////////////////////  */
+/*/////////////////////////////////////PAINTING INFO//////////////////////////////// */
 #painting_info{
     /* border: 1px dotted lightcoral; */
     height: 150px;
     width: 100%;
     position: absolute;
-    bottom: 150px;
+    bottom: 98px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,6 +53,16 @@
 }
 #painting_info p{
     font-size: 15px;
+}
+#painting_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    height: 100px;
+    width: 100%;
+    /* border: 1px dotted lawngreen; */
+    position: absolute;
+    bottom: 0;
 }
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
