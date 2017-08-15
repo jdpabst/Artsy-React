@@ -2,7 +2,7 @@
     width: 100%;
     /* background: #F2E4CA;  */
     position: relative;
-    height: 700px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     top: 525px;
@@ -21,9 +21,9 @@
 }
 
 .landing h3{
-    font-size: 40px;
+    font-size: 20px;
     line-height: 51px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: calc(50% - 96px);
     width: 100%;

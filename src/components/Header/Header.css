@@ -11,11 +11,6 @@
     background-size: cover; 
     height: 600px;
 }
-/* @media(max-width: 500px){
-    #mobile_header{
-        height: 760px;
-    }
-} */
 .quote_holder{
     padding: 0;
     margin: 0;
@@ -35,7 +30,7 @@
     left: 0;
 }
 #author{
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Homemade Apple', cursive;
     position: absolute;
     top: 195px;
@@ -85,7 +80,7 @@
 }
 .header_logo{
     font-family: 'Homemade Apple', cursive;
-    font-size: 78px;
+    font-size: 60px;
     position: absolute;
     width: 250px;
     /* border: 2px dotted black; */

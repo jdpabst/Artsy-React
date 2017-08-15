@@ -56,13 +56,13 @@
     background-size: cover;
 }
 #insta_tag{
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     width: 240px;
     /* border: 2px solid; */
     text-align: center;
     position: absolute;
-    bottom: 48px;
+    bottom: 52px;
     left: calc(50% - 120px);
 }
 
