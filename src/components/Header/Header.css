@@ -44,12 +44,15 @@
 @media(min-width: 712px){
     .quote_holder{
         width: 550px;
-        top: calc(50% - 92.5px);
+        top: calc(50% - 82.5px);
         left: calc(50% - 250px);
     }
     #quote{
-        font-size: 42px;
-
+        font-size: 38px;
+        line-height: 60px;
+    }
+    #author{
+        top: 120px;
     }
 }
 .ham{
