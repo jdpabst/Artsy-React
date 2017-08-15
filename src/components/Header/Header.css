@@ -38,8 +38,8 @@
     font-size: 36px;
     font-family: 'Homemade Apple', cursive;
     position: absolute;
-    top: 130px;
-    right: 14px;
+    top: 195px;
+    right: 10px;
 }
 @media(min-width: 712px){
     .quote_holder{
