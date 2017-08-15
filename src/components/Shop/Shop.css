@@ -6,8 +6,8 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    /* border: 1px solid lightgray; */
-    height: 650px;
+     border: 1px solid lightgray; 
+    height: 725px;
     width: 100%;
 }
 /*////////////////////////////SLIDER////////////////////////////////////////  */
@@ -40,7 +40,7 @@
     height: 150px;
     width: 100%;
     position: absolute;
-    bottom: 98px;
+    bottom: 158px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -63,9 +63,17 @@
     text-align: center;
     /* border: 1px dotted lawngreen; */
     position: absolute;
-    bottom: 0;
+    bottom: 70px;
 }
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
+#specs_area{
+    height: 50px;
+    width: 200px;
+    border: 1px dotted teal;
+    position: absolute;
+    left: calc(50% - 100px);
+    bottom: 0;
+}
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
     #img_slider{
@@ -81,7 +89,7 @@
         width: 400px;
     }
     #content_area{
-        height: 825px;
+        height: 875px;
         width: 720px;
     }
     #painting_info{
