@@ -48,6 +48,11 @@ class Shop extends Component {
                     <div className="img2"></div>
                 </Slider>
             </div>
+            <div id="painting_info">
+                <h1>Prickly Pear</h1>
+                <h2>The Aestate</h2>
+                <p>$362.00</p>
+            </div>
           </section>
       </div>
     );
