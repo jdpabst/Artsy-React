@@ -2,22 +2,23 @@
     background: white;
 }
 #img_slider{
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     border: 2px dotted lime;
     margin-left: auto; 
     margin-right: auto;
     position: relative;
 }
 #img_slider div{
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
 }
 #img_slider .img1{
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg) center no-repeat;
+    
+    background: url(https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg) center no-repeat;
     background-size: cover;
 }
 #img_slider .img2{
-    background: url(https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg) center no-repeat;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg) center no-repeat;
     background-size: cover;
 }
