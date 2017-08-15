@@ -7,6 +7,13 @@ import './Shop.css';
 class Shop extends Component {
 
   render() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
     return (
       <div className="shop">
           <h1 className="header_logo">Artsy</h1>
@@ -33,11 +40,13 @@ class Shop extends Component {
                 <div id="cart_items">0</div>
           </section>
           <section id="content_area">
-              <div id="img_slider">
-                  {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}
-                  <img src="https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg"/>
-                  <img src="https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg"/>
-              </div>
+              <Slider {...settings}>
+                <div id="img_slider">
+                    {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg"/>
+                    <img src="https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg"/>
+                </div>
+              </Slider>
           </section>
       </div>
     );
