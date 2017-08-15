@@ -42,11 +42,11 @@
     }
      .landing h3{
         height: 250px;
-        width: 550px;
+        width: 80%;
         /* border: 2px solid black; */
-        padding-top: 40px;
-        font-size: 35px;
-        top: calc(50% - 104px);
-        left: calc(50% - 275px);
+        padding-top: 58px;
+        font-size: 20px;
+        /* top: calc(50% - 104px); */
+        left: 10%;
     } 
 }
