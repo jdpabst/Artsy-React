@@ -36,7 +36,7 @@
 }
 #author{
     font-size: 36px;
-    font-family: 'Miss Fajardose', cursive;
+    font-family: 'Homemade Apple', cursive;
     position: absolute;
     top: 130px;
     right: 14px;
@@ -84,18 +84,15 @@
     margin-bottom: 5px;
 }
 .header_logo{
-    font-family: 'Miss Fajardose', cursive;
-    /* font-family: 'Sacramento', cursive; */
-    /* font-family: 'Pacifico', cursive; */
-    /* font-family: 'Satisfy', cursive; */
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-weight: bold; */
+    font-family: 'Homemade Apple', cursive;
     font-size: 78px;
     position: absolute;
-    position: absolute;
-    right: calc(50% - 56px);
+    width: 250px;
+    /* border: 2px dotted black; */
+    text-align: center;
+    right: calc(50% - 125px);
     z-index: 10;
-    top: 16px;
+    top: 28px;
     color: black;
     font-weight: bold;
 }
@@ -248,8 +245,8 @@
     .header_logo{
         font-size: 55px;
         position: absolute;
-        right: calc(50% - 40px);
-        top: 25px;
+        right: calc(50% - 132px);
+        top: 30px;
     }
     #water_color_bg{
         left: calc(50% - 75px);
