@@ -36,6 +36,9 @@
     margin-top: 20px;
     color: white;
 }
+#categories ul li:hover{
+    cursor: pointer;
+}
 .footer #socials{
     filter: brightness(0) invert(1);
 }
@@ -44,8 +47,8 @@
 }
 .footer h4{
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
     font-weight: bold;
 }
 @media(max-width: 410px){
