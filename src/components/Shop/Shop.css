@@ -81,6 +81,9 @@
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
 }
+#specs_area select{
+    cursor: pointer;
+}
 /*////////////////////////////////////ADD BUTTON/////////////////////////////  */
 #add_bttn{
     height: 50px;
@@ -98,6 +101,7 @@
 }
 #add_bttn:hover{
     background: black;
+    cursor: pointer;
     color: white;
 }
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */

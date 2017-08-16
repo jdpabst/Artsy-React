@@ -98,7 +98,8 @@ class Shop extends Component {
               </div>
             </section>
             <div id="add_bttn">ADD TO CART</div>
-          </section>             
+          </section>      
+          <img src="https://media.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif"/>       
       </div>
     );
   }
