@@ -42,7 +42,7 @@ class Header extends Component {
                   <div id="bar3"></div>
                 </div>
                 <section id="mobile_menu">
-                    <div>HOME</div>
+                    <Link to='/' style={{textDecoration: 'none', color: 'black'}}><div>HOME</div></Link>
                     <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><div>SHOP</div></Link>
                     <div>CART</div>
                     <div>CONTACT</div>
