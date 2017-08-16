@@ -55,12 +55,15 @@ class Shop extends Component {
                 <div id="cart_items">0</div>
           </section>
           <div id="mobile_filter">
-              <p>Orientation</p>
-              <select>
-                <option value="vert">VERTICAL</option>
-                <option value="hori">HORIZONTAL</option>
-                <option value="sq">SQUARE</option>
-              </select>
+              <div id="orient">
+                <p>Orientation</p>
+                <select>
+                    <option value="vert">VERTICAL</option>
+                    <option value="hori">HORIZONTAL</option>
+                    <option value="sq">SQUARE</option>
+                </select>
+            </div>
+            <div id="price">
               <p>Price</p>
               <select>
                 <option value="lowest">UNDER $500</option>
@@ -68,6 +71,7 @@ class Shop extends Component {
                 <option value="high">$1000-$2000</option>
                 <option value="highest">$2000+</option>
               </select>
+            </div>
           </div>
       </div>
     );
