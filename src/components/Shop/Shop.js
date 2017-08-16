@@ -57,8 +57,8 @@ class Shop extends Component {
                 <p>Original watercolor painting on archival watercolor paper, signed on the back by Jessica Rowe. Matted, framed and ready-to-hang.</p>
             </div>
             <section id="specs_area">
-              <p>SIZE</p>
               <div id="size_picker">
+                  <p>SIZE</p>
                   <select>
                     <option value="smallest">11"x14"</option>
                     <option value="medium">16"x20"</option>
@@ -66,8 +66,8 @@ class Shop extends Component {
                     <option value="largest">22"x32"</option>
                   </select>
               </div>
-              <p>QTY</p>
               <div id="qty_picker">
+                  <p>QTY</p>
                   <select>
                     <option value="one">1</option>
                     <option value="two">2</option>

@@ -68,11 +68,17 @@
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
 #specs_area{
     height: 50px;
-    width: 200px;
-    border: 1px dotted teal;
+    width: 220px;
+    /* border: 1px dotted teal; */
     position: absolute;
     left: calc(50% - 100px);
     bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#specs_area p{
+    font-family: 'Montserrat', sans-serif;
 }
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
