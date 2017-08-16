@@ -73,6 +73,12 @@ class Shop extends Component {
               </select>
             </div>
           </div>
+          <div id="products">
+              <div className="product" id="product1"></div>
+              <div className="product" id="product2"></div>
+              <div className="product" id="product3"></div>
+              <div className="product" id="product4"></div>
+          </div>
       </div>
     );
   }

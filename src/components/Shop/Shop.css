@@ -26,3 +26,26 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
+/*////////////////////////////////// PRODUCT AREA ///////////////////////////////////////  */
+.product{
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#product1{
+    background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
+    background-size: cover;
+}
+#product2{
+    background: url(https://ae01.alicdn.com/kf/HTB1NGu0NVXXXXb.XVXXq6xXFXXX3/Sea-Turtle-Watercolor-font-b-Art-b-font-Print-Home-Decor-Marine-font-b-Animals-b.jpg) center no-repeat;
+    background-size: cover;
+}
+#product3{
+    background: url(https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg) center no-repeat;
+    background-size: cover;
+}
+#product4{
+    background: url(https://ctl.s6img.com/society6/img/ttHqWUDPItrFooLjEFJfrGPuV1g/h_550,w_550/prints/~artwork/s6-0045/a/20051706_4146805/~~/little-deer-8bu-prints.jpg) center no-repeat;
+    background-size: cover;
+}
