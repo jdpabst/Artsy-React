@@ -125,6 +125,21 @@
     font-weight: bold;
     top: 200px;
 }
+/*////////////////////////////// MORE LIKE ///////////////////////////////////  */
+#more_like{
+    height: 550px;
+    border: 1px dotted orange;
+    width: 100%;
+    margin-top: 100px;
+}
+#more1{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/45/9d/57/459d573063fd145732501249847e92ed.jpg) center no-repeat;
+    background-size: cover;
+}
+/*/////////////////////////// FOOTER ///////////////////////////////////////////  */
+.footer{
+    top: 150px;
+}
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
     #img_slider{

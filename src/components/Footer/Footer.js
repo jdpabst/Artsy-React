@@ -8,7 +8,6 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        {/* <div id="splatters"></div> */}
         <div id="categories">
           <ul>
             <li>Our Story</li>

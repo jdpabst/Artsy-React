@@ -5,17 +5,6 @@
     position: relative;
     top: 625px;
 }
-/* #splatters{
-    background: url(https://t3.ftcdn.net/jpg/01/28/01/26/240_F_128012611_GOILXu0VGAKODLrc4C8URJGE70hNsCIy.jpg) center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    opacity: 0.1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-} */
 #categories{
     /* border: 2px solid lime;  */
     height: 50px;
