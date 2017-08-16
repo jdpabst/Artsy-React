@@ -63,7 +63,7 @@
     text-align: center;
     /* border: 1px dotted lawngreen; */
     position: absolute;
-    bottom: 90px;
+    bottom: 124px;
 }
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
 #specs_area{
@@ -72,7 +72,7 @@
      /* border: 1px dotted teal;  */
     position: absolute;
     right: calc(50% - 72.5px);
-    bottom: 0;
+    bottom: 70px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -92,9 +92,9 @@
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 75px);
 }
 #add_bttn:hover{
     background: black;
@@ -127,6 +127,11 @@
     #specs_area{
         bottom: 450px;
         right: 0;
+    }
+    #add_bttn{
+        position: absolute;
+        right: 0;
+        bottom: 230px;
     }
 }
 @media(min-width: 1100px){
