@@ -31,6 +31,7 @@ class Shop extends Component {
     return (
       <div className="shop_area">
           <h1 className="header_logo">Artsy</h1>
+          {/* ////////////////////////////MOBILE////////////////////////////  */}
           <section id="mobile_header_shop">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
@@ -53,7 +54,9 @@ class Shop extends Component {
                 </section>
                 <div id="cart_items">0</div>
           </section>
-          <div id="filter"></div>
+          <div id="mobile_filter">
+              
+          </div>
       </div>
     );
   }

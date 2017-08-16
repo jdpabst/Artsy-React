@@ -2,8 +2,10 @@
     width: 100%;
     height: 550px;
     border: 2px dotted lightblue;
+    margin-top: 130px;
 }
-#filter{
+/* //////////////////////////////////MOBILE FILTER AREA/////////////////////////////////  */
+#mobile_filter{
     height: 550px;
     width: 100px;
     border: 1px dotted lime;
