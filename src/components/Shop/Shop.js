@@ -98,8 +98,11 @@ class Shop extends Component {
               </div>
             </section>
             <div id="add_bttn">ADD TO CART</div>
-          </section>      
-          <img src="https://media.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif"/>       
+          </section> 
+          <section id="insta_spoof">     
+            <img id="gif" src="https://media.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif"/> 
+            <p>LOVE what you see? Check us out on Instagram @ArtsyWatercolors</p>   
+          </section>   
       </div>
     );
   }

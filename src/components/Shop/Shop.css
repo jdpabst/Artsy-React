@@ -104,6 +104,16 @@
     cursor: pointer;
     color: white;
 }
+/*//////////////////////////////////GIF//////////////////////////////////////  */
+#insta_spoof{
+    width: 100%;
+    height: 350px;
+}
+#gif{
+    margin-top: 25px;
+    width: 100%;
+    height: 350px;
+}
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
     #img_slider{
