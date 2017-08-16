@@ -6,7 +6,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-     border: 1px solid lightgray; 
+     /* border: 1px solid lightgray;  */
     height: 725px;
     width: 100%;
 }
@@ -40,7 +40,7 @@
     height: 150px;
     width: 100%;
     position: absolute;
-    bottom: 158px;
+    bottom: 205px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -63,7 +63,7 @@
     text-align: center;
     /* border: 1px dotted lawngreen; */
     position: absolute;
-    bottom: 70px;
+    bottom: 100px;
 }
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
 #specs_area{
