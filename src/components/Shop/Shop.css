@@ -128,20 +128,37 @@
 /*////////////////////////////// MORE LIKE ///////////////////////////////////  */
 #more_like{
     height: 550px;
-    border: 1px dotted orange;
+    /* border: 1px dotted orange; */
     width: 100%;
     margin-top: 100px;
 }
 #more_like p{
     font-family: 'Homemade Apple', cursive;
+    height: 15px;
+    width: 200px;
+    font-size: 25px;
+    /* border: 1px dotted orange; */
+    position: absolute;
+    left: calc(50% - 100px);
 }
 #more1{
     background: url(https://s-media-cache-ak0.pinimg.com/originals/45/9d/57/459d573063fd145732501249847e92ed.jpg) center no-repeat;
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
+    top: 70px;
+    position: relative;
+}
+#more2{
+    background: url(https://i.pinimg.com/736x/d5/4b/c9/d54bc95d984d85b2eb9ad30af341b3e8--framed-canvas-prints-canvas-wall-art.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
     position: relative;
 }
 /*/////////////////////////// FOOTER ///////////////////////////////////////////  */
