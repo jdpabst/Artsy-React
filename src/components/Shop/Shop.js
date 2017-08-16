@@ -32,7 +32,6 @@ class Shop extends Component {
     return (
       <div className="shop_area">
           <h1 className="header_logo">Artsy</h1>
-          {/* ////////////////////////////MOBILE////////////////////////////  */}
           <section id="mobile_header_shop">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>

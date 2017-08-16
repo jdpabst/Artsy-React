@@ -10,11 +10,17 @@
     width: 100%;
     background: url(http://designreflect.com/wp-content/uploads/2012/09/paper-textures/20-Seamless-Paper-Texture.jpg) center no-repeat;
     background-size: cover;
-    /* filter: grayscale(100%); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+}
+@media(min-width: 720px){
+    #mobile_filter{
+        height: 550px;
+        width: 100px;
+    }
+    
 }
 #mobile_filter div p{
     font-family: 'Montserrat', sans-serif;
