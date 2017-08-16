@@ -6,10 +6,20 @@
 }
 /* //////////////////////////////////MOBILE FILTER AREA/////////////////////////////////  */
 #mobile_filter{
-    height: 100px;
+    height: 75px;
     width: 100%;
     border: 1px dotted lime;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+#mobile_filter div p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    height: 40px;
+}
+#mobile_filter div select{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
