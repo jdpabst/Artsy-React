@@ -1,0 +1,283 @@
+#mobile_header_shop{
+    background: white;
+    height: 140px;
+}
+#content_area{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+     /* border: 1px solid lightgray;  */
+    height: 725px;
+    width: 100%;
+}
+/*////////////////////////////SLIDER////////////////////////////////////////  */
+#img_slider{
+    height: 250px;
+    width: 250px;
+    /* border: 2px dotted lime; */
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    margin-top: 75px;
+}
+#img_slider div{
+    height: 250px;
+    width: 250px;
+}
+#img_slider .img1{
+    background: url(https://ctl.s6img.com/society6/img/QayJERhyocmxd7vsukZC78nSjug/h_550,w_550/prints/~artwork/s6-0071/a/28912150_11227258/~~/green-paddle-cactus-ii-prints.jpg) center no-repeat;
+    background-size: cover;
+}
+#img_slider .img2{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/a3/07/58/a30758819c5b2a928bdb4bb7a8456ebe.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+/*/////////////////////////////////////PAINTING INFO//////////////////////////////// */
+#painting_info{
+    /* border: 1px dotted lightcoral; */
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: 205px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#painting_info h1{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+}
+#painting_info h2{
+    font-size: 18px;
+}
+#painting_info p{
+    font-size: 15px;
+}
+#painting_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    /* border: 1px dotted lawngreen; */
+    position: absolute;
+    bottom: 124px;
+}
+/*//////////////////////////////////SPECS AREA//////////////////////////////////  */
+#specs_area{
+    height: 50px;
+    width: 145px;
+     /* border: 1px dotted teal;  */
+    position: absolute;
+    right: calc(50% - 72.5px);
+    bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#specs_area p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+#specs_area select{
+    cursor: pointer;
+}
+/*////////////////////////////////////ADD BUTTON/////////////////////////////  */
+#add_bttn{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 75px);
+}
+#add_bttn:hover{
+    background: black;
+    cursor: pointer;
+    color: white;
+}
+/*//////////////////////////////////GIF//////////////////////////////////////  */
+#insta_spoof{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+#gif{
+    margin-top: 25px;
+    width: 100%;
+    height: 350px;
+}
+#insta_spoof p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    font-weight: bold;
+    top: 200px;
+}
+/*////////////////////////////// MORE LIKE ///////////////////////////////////  */
+#more_like{
+    height: 550px;
+    /* border: 1px dotted orange; */
+    width: 100%;
+    margin-top: 100px;
+}
+#more_like p{
+    font-family: 'Homemade Apple', cursive;
+    height: 15px;
+    width: 200px;
+    font-size: 25px;
+    /* border: 1px dotted orange; */
+    position: absolute;
+    left: calc(50% - 100px);
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+#more1{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/45/9d/57/459d573063fd145732501249847e92ed.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70px;
+    position: relative;
+}
+#more2{
+    background: url(https://i.pinimg.com/736x/d5/4b/c9/d54bc95d984d85b2eb9ad30af341b3e8--framed-canvas-prints-canvas-wall-art.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    position: relative;
+}
+/*/////////////////////////// FOOTER ///////////////////////////////////////////  */
+.footer_shop{
+    height: 110px;
+    width: 100%;
+    background: black;
+    position: relative;
+    top: 130px;
+}
+#categories{
+    /* border: 2px solid lime;  */
+    height: 50px;
+    width: 400px;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+#categories ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+#categories ul li:hover{
+    cursor: pointer;
+}
+.footer_shop #socials{
+    filter: brightness(0) invert(1);
+}
+#socials:hover{
+    cursor: pointer;
+}
+.footer_shop h4{
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media(max-width: 410px){
+    #categories{
+        width: 320px;
+    }
+    #categories ul li{
+        font-size: 25px;
+    }
+}
+/* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
+@media(min-width: 720px){
+    #img_slider{
+        height: 400px;
+        width: 400px;
+        margin-top: 150px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #img_slider div{
+        height: 400px;
+        width: 400px;
+    }
+    #painting_paragraph{
+        bottom: 30px;
+    }
+    #content_area{
+        height: 770px;
+        width: 720px;
+    }
+    #painting_info{
+        bottom: 435px;
+        width: 150px;
+        /* border: 1px solid black; */
+        right: 0;
+    }
+    #specs_area{
+        bottom: 385px;
+        right: 0;
+    }
+    #add_bttn{
+        position: absolute;
+        right: 0;
+        bottom: 330px;
+        width: 144px;
+    }
+    #insta_spoof{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        height: 450px;
+    }
+    #gif{
+        width: 720px;
+        height: 500px;
+        margin-top: 0;
+    }
+    #insta_spoof p{
+        top: 250px;
+        left: 10%;
+        width: 80%;
+    }
+}
+@media(min-width: 1100px){
+    #img_slider{
+        height: 500px;
+        width: 500px;
+    }
+    #img_slider div{
+        height: 500px;
+        width: 500px;
+    }
+     #painting_paragraph{
+        bottom: -35px;
+    } 
+}
