@@ -115,12 +115,12 @@
     width: 100%;
     /* border: 1px solid #F3AE0B; */
     /* text-align: center; */
-    background: #FAF4E7;
+    background: #FFDAB9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 150px;
-    position: relative;
+    position: fixed;
     z-index: 8;
     display: none;
 }
@@ -135,13 +135,13 @@
     color: black;
     text-align: center;
     vertical-align: middle;
-    line-height: 60px;
+    line-height: 86px;
      /* border: 2px solid black;  */
 }
 #mobile_menu div:hover{
-    background: #F3AE0B;
+    background: #C4FEF6;
     cursor: pointer;
-    color: white;
+    color: 	#4b9187; 
 }
 #socials{
     display:flex;
@@ -152,6 +152,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    padding-top: 5px;
 }
 #socials img{
     height: 50px;
