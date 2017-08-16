@@ -63,7 +63,7 @@
     text-align: center;
     /* border: 1px dotted lawngreen; */
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
 }
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
 #specs_area{
@@ -71,7 +71,7 @@
     width: 145px;
      /* border: 1px dotted teal;  */
     position: absolute;
-    right: calc(50% - 100px);
+    right: calc(50% - 72.5px);
     bottom: 0;
     display: flex;
     justify-content: space-around;
@@ -120,6 +120,6 @@
         width: 500px;
     }
     #painting_paragraph{
-        bottom: 75px;
+        bottom: 70px;
     }
 }
