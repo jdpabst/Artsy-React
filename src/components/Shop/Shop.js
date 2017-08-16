@@ -58,9 +58,23 @@ class Shop extends Component {
             </div>
             <section id="specs_area">
               <p>SIZE</p>
-              <div id="size_picker"></div>
+              <div id="size_picker">
+                  <select>
+                    <option value="smallest">11"x14"</option>
+                    <option value="medium">16"x20"</option>
+                    <option value="large">20"x30"</option>
+                    <option value="largest">22"x32"</option>
+                  </select>
+              </div>
               <p>QTY</p>
-              <div id="qty_picker"></div>
+              <div id="qty_picker">
+                  <select>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                  </select>
+              </div>
             </section>
           </section>
            
