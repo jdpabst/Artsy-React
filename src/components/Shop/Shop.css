@@ -81,6 +81,16 @@
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
 }
+/*////////////////////////////////////ADD BUTTON/////////////////////////////  */
+#add_bttn{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
     #img_slider{

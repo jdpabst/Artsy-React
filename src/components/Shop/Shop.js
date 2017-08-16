@@ -97,9 +97,8 @@ class Shop extends Component {
                   </select>
               </div>
             </section>
-          </section>
-           
-            {/* <div id="add_bttn">ADD TO CART</div>  */}
+          </section>           
+             <div id="add_bttn">ADD TO CART</div>  
       </div>
     );
   }
