@@ -6,7 +6,7 @@
 }
 /* //////////////////////////////////MOBILE FILTER AREA/////////////////////////////////  */
 #mobile_filter{
-    height: 550px;
-    width: 100px;
+    height: 100px;
+    width: 100%;
     border: 1px dotted lime;
 }
