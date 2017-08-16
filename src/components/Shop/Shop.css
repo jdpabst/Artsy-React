@@ -132,9 +132,17 @@
     width: 100%;
     margin-top: 100px;
 }
+#more_like p{
+    font-family: 'Homemade Apple', cursive;
+}
 #more1{
     background: url(https://s-media-cache-ak0.pinimg.com/originals/45/9d/57/459d573063fd145732501249847e92ed.jpg) center no-repeat;
     background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 /*/////////////////////////// FOOTER ///////////////////////////////////////////  */
 .footer{

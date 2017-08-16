@@ -105,7 +105,7 @@ class Shop extends Component {
             <p><span style={{fontFamily: "'Homemade Apple', cursive", fontSize: '25px'}}>LOVE</span> what you see? Check us out on Instagram @ArtsyWatercolors</p>   
           </section> 
           <section id="more_like">
-              <p>MORE LIKE THIS</p>
+              <p>more like this</p>
               <div id="more1"></div>
               <div id="more2"></div>
               <div id="more3"></div>
