@@ -40,7 +40,7 @@ class Shop extends Component {
     return (
       <div className="shop">
           <h1 className="header_logo">Artsy</h1>
-          <section id="mobile_header">
+          <section id="mobile_header_shop">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
@@ -110,7 +110,7 @@ class Shop extends Component {
               <div id="more2"></div>
               <div id="more3"></div>
           </section>
-          <section className="footer">
+          <section className="footer_shop">
             <div id="categories">
                 <ul>
                     <li>Our Story</li>
