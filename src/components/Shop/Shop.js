@@ -101,7 +101,7 @@ class Shop extends Component {
           </section> 
           <section id="insta_spoof">     
             <img id="gif" src="https://media.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif"/> 
-            <p>LOVE what you see? Check us out on Instagram @ArtsyWatercolors</p>   
+            <p><span style={{fontFamily: "'Homemade Apple', cursive", fontSize: '25px'}}>LOVE</span> what you see? Check us out on Instagram @ArtsyWatercolors</p>   
           </section>   
       </div>
     );
