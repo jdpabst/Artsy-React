@@ -68,10 +68,10 @@
 /*//////////////////////////////////SPECS AREA//////////////////////////////////  */
 #specs_area{
     height: 50px;
-    width: 200px;
-    /* border: 1px dotted teal; */
+    width: 145px;
+     border: 1px dotted teal; 
     position: absolute;
-    left: calc(50% - 100px);
+    right: calc(50% - 100px);
     bottom: 0;
     display: flex;
     justify-content: space-around;
@@ -100,9 +100,13 @@
         width: 720px;
     }
     #painting_info{
-        bottom: 350px;
+        bottom: 525px;
         width: 150px;
         /* border: 1px solid black; */
+        right: 0;
+    }
+    #specs_area{
+        bottom: 450px;
         right: 0;
     }
 }
