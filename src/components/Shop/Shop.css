@@ -52,3 +52,59 @@
     background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
     background-size: cover;
 }
+#product5{
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/bear-calm-amy-hamilton.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* ////////////////// FOOTER /////////////////////////  */
+.footer_shop_area{
+    height: 110px;
+    width: 100%;
+    background: black;
+    position: relative;
+    top: 65px;
+}
+#categories{
+    /* border: 2px solid lime;  */
+    height: 50px;
+    width: 400px;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+#categories ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+#categories ul li:hover{
+    cursor: pointer;
+}
+.footer_shop_area #socials{
+    filter: brightness(0) invert(1);
+}
+#socials:hover{
+    cursor: pointer;
+}
+.footer_shop_area h4{
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media(max-width: 410px){
+    #categories{
+        width: 320px;
+    }
+    #categories ul li{
+        font-size: 25px;
+    }
+}
