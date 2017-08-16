@@ -87,9 +87,18 @@
     width: 150px;
     border: 2px solid black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#add_bttn:hover{
+    background: black;
+    color: white;
 }
 /* /////////////////////////// MEDIA QUERIES //////////////////////////////  */
 @media(min-width: 720px){
