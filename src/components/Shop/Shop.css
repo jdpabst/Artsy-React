@@ -1,4 +1,10 @@
 .shop_area{
     width: 100%;
     height: 550px;
+    border: 2px dotted lightblue;
+}
+#filter{
+    height: 550px;
+    width: 100px;
+    border: 1px dotted lime;
 }
