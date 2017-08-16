@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 
+import Footer from './../Footer/Footer.js'
 import './Shop.css';
 
 
@@ -102,7 +103,8 @@ class Shop extends Component {
           <section id="insta_spoof">     
             <img id="gif" src="https://media.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif"/> 
             <p><span style={{fontFamily: "'Homemade Apple', cursive", fontSize: '25px'}}>LOVE</span> what you see? Check us out on Instagram @ArtsyWatercolors</p>   
-          </section>   
+          </section> 
+          <Footer/>  
       </div>
     );
   }

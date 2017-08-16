@@ -159,6 +159,21 @@
         bottom: 390px;
         width: 144px;
     }
+    #insta_spoof{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        height: 450px;
+    }
+    #gif{
+        width: 720px;
+        height: 450px;
+    }
+    #insta_spoof p{
+        top: 250px;
+        left: 10%;
+        width: 80%;
+    }
 }
 @media(min-width: 1100px){
     #img_slider{
