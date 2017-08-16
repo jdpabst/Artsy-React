@@ -8,8 +8,9 @@
 #mobile_filter{
     height: 75px;
     width: 100%;
-    border-top: 1px solid #FFDAB9; 
-    border-bottom: 1px solid #FFDAB9;
+    background: url(http://designreflect.com/wp-content/uploads/2012/09/paper-textures/20-Seamless-Paper-Texture.jpg) center no-repeat;
+    background-size: cover;
+    /* filter: grayscale(100%); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -17,6 +18,7 @@
 }
 #mobile_filter div p{
     font-family: 'Montserrat', sans-serif;
+    /* color: white; */
     font-weight: bold;
     font-size: 25px;
     height: 40px;
@@ -32,9 +34,10 @@
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 #product1{
-    background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
+    background: url(https://ctl.s6img.com/society6/img/ttHqWUDPItrFooLjEFJfrGPuV1g/h_550,w_550/prints/~artwork/s6-0045/a/20051706_4146805/~~/little-deer-8bu-prints.jpg) center no-repeat;
     background-size: cover;
 }
 #product2{
@@ -46,6 +49,6 @@
     background-size: cover;
 }
 #product4{
-    background: url(https://ctl.s6img.com/society6/img/ttHqWUDPItrFooLjEFJfrGPuV1g/h_550,w_550/prints/~artwork/s6-0045/a/20051706_4146805/~~/little-deer-8bu-prints.jpg) center no-repeat;
+    background: url(https://img1.etsystatic.com/110/1/12803061/il_340x270.1051417699_raai.jpg) center no-repeat;
     background-size: cover;
 }
