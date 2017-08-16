@@ -140,6 +140,8 @@
     /* border: 1px dotted orange; */
     position: absolute;
     left: calc(50% - 100px);
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
 }
 #more1{
     background: url(https://s-media-cache-ak0.pinimg.com/originals/45/9d/57/459d573063fd145732501249847e92ed.jpg) center no-repeat;
