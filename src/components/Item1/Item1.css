@@ -230,6 +230,11 @@
     #mobile_header_shop{
         display: none;
     }
+    #desktop_header{
+        display: block;
+        background: white;
+        height: 150px;
+    }
     #img_slider div{
         height: 400px;
         width: 400px;

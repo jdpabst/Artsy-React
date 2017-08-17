@@ -60,22 +60,22 @@ class Item1 extends Component {
                         <img id='img' src="https://static1.squarespace.com/static/573a1dd13c44d82cb701948c/57680f16725e25caf907775a/57680f16c534a58437d78054/1466437399798/instagram+logo.png"/>
                     </section>
                 </section>
-                <section id="desktop_header">
-                    <div id="desktop_menu">
-                        <ul id="first_ul">
-                            <li>HOME</li>
-                            <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
-                            <li>ABOUT US</li>
-                        </ul>
-                        <ul id="second_ul">
-                            <li>CONTACT</li>
-                            <li>CONNECT</li>
-                            <li>CART<div id='desktop_cart'>0</div></li>
-                        </ul>
-                    </div>
-                </section>
                 <div id="cart_items">0</div>
           </section>
+          <section id="desktop_header_shop">
+                <div id="desktop_menu">
+                    <ul id="first_ul">
+                        <li>HOME</li>
+                        <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
+                        <li>ABOUT US</li>
+                    </ul>
+                    <ul id="second_ul">
+                        <li>CONTACT</li>
+                        <li>CONNECT</li>
+                        <li>CART<div id='desktop_cart'>0</div></li>
+                    </ul>
+                </div>
+            </section>
           <section id="content_area">
             <div id="img_slider">
                 {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}
