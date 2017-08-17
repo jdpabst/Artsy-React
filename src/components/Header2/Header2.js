@@ -28,7 +28,6 @@ class Header2 extends Component {
   render() {
     return (
         <div className="header2">
-            
             <section id="mobile_header2">
                 <h1 className="header_logo2">Artsy</h1>
                 <div className='ham'  onClick={ this.handleDropDown }>
