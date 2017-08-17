@@ -1,12 +1,9 @@
 .header{
     width: 100%;
-    /* background: #F2E4CA; */
-    /* background: #F9F2E5; */
     height: 75px;
 }
 #mobile_header{
     width: 100%;
-    /* border: 2px solid black; */
     background: url(http://1.bp.blogspot.com/-Nonbjwv0z8U/Vqks5Nj8WQI/AAAAAAAAD-s/BQFIFOHEF50/s1600/watercolor_texture__16_by_cgarofani-d5bwklw.jpg) center no-repeat;
     background-size: cover; 
     height: 600px;
@@ -16,7 +13,6 @@
     margin: 0;
     height: 185px;
     width: 95%;
-     /* border: 1px solid;  */
     position: absolute;
     top: calc(50% - 130.5px);
     left: 5%;
@@ -65,7 +61,6 @@
     
 }
 .ham:hover{
-     /* animation: rotate 2s;*/
      transform: rotate(225deg);
 }
 .ham div{
@@ -83,7 +78,6 @@
     font-size: 60px;
     position: absolute;
     width: 250px;
-    /* border: 2px dotted black; */
     text-align: center;
     right: calc(50% - 125px);
     z-index: 10;
@@ -111,10 +105,7 @@
     
 }
 #mobile_menu{
-    /* height: 100vh; */
     width: 100%;
-    /* border: 1px solid #F3AE0B; */
-    /* text-align: center; */
     background: #FFDAB9;
     display: flex;
     flex-wrap: wrap;
