@@ -28,6 +28,7 @@ class Header2 extends Component {
   render() {
     return (
         <div className="header2">
+            <h1 className="header_logo">Artsy</h1>
             <section id="mobile_header2">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
