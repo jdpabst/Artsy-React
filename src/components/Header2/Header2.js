@@ -29,7 +29,7 @@ class Header2 extends Component {
     return (
         <div className="header2">
             <section id="mobile_header2">
-                <h1 className="header_logo2">Artsy</h1>
+               <Link to='/' style={{textDecoration: 'none', color: 'black'}}><h1 className="header_logo2">Artsy</h1></Link>
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
@@ -54,7 +54,7 @@ class Header2 extends Component {
           <section id="desktop_header2">
               <div id="desktop_menu2">
                 <ul id="first_ul">
-                    <li>HOME</li>
+                    <Link to='/' style={{textDecoration: 'none', color: 'black'}}><li>HOME</li></Link>
                     <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
                     <li>ABOUT US</li>
                 </ul>

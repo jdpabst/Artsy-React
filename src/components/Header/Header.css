@@ -207,7 +207,7 @@
 }
 #desktop_menu ul li:hover{
     cursor: pointer;
-    border-bottom: 2px solid #C4FEF6;
+     color: darkgray; 
 }
 #desktop_menu #second_ul li div{
     height: 30px;

@@ -65,7 +65,7 @@ class Item1 extends Component {
           <section id="desktop_header_shop">
                 <div id="desktop_menu">
                     <ul id="first_ul">
-                        <li>HOME</li>
+                        <Link to='/' style={{textDecoration: 'none', color: 'black'}}><li>HOME</li></Link>
                         <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
                         <li>ABOUT US</li>
                     </ul>
