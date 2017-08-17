@@ -40,7 +40,7 @@
 #desktop_menu2 ul{ 
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: -150px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
