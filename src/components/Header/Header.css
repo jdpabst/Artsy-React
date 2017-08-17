@@ -177,17 +177,14 @@
 /* DESKTOP  */
 #desktop_header{
     width: 100%;
-    /* border: 2px solid black; */
     background: url(http://1.bp.blogspot.com/-Nonbjwv0z8U/Vqks5Nj8WQI/AAAAAAAAD-s/BQFIFOHEF50/s1600/watercolor_texture__16_by_cgarofani-d5bwklw.jpg) center no-repeat;
     background-size: cover; 
     height: 600px;
     display: none;
-    /* background-position-y: -150px; */
 }
 #desktop_menu{
     height: 80px;
     width: 85%;
-    /* border: 2px solid black; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -202,7 +199,6 @@
     flex-wrap: wrap;
     height: 80px;
     width: 40%;
-    /* border: 2px solid black; */
 }
 #desktop_menu #first_ul{
     position: absolute;

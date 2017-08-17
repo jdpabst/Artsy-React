@@ -32,7 +32,7 @@ class Shop extends Component {
     return (
       <div className="shop_area">
           <Link to='/' style={{textDecoration: 'none', color: 'black'}}><h1 className="header_logo">Artsy</h1></Link>
-          <section id="mobile_header_shop">
+          <section id="mobile_header">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
                   <div id="bar2"></div>
@@ -54,6 +54,20 @@ class Shop extends Component {
                 </section>
                 <div id="cart_items">0</div>
           </section>
+          <section id="desktop_header_shop_area">
+              <div id="desktop_menu_shop">
+                <ul id="first_ul">
+                    <li>HOME</li>
+                    <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
+                    <li>ABOUT US</li>
+                </ul>
+                <ul id="second_ul">
+                    <li>CONTACT</li>
+                    <li>CONNECT</li>
+                    <li>CART<div id='desktop_cart'>0</div></li>
+                </ul>
+              </div>
+        </section>
           <div id="mobile_filter">
               <div id="orient">
                 <p>Orientation</p>

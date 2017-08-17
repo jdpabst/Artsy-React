@@ -3,6 +3,84 @@
     height: 550px;
     margin-top: 150px;
 }
+/*  ///////////////////// DESKTOP HEADER /////////////////////////////////////////  */
+#desktop_header_shop_area{
+    width: 100%;
+    height: 100px;
+    display: none;
+}
+#desktop_menu_shop{
+    height: 80px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 30px;
+    top: -150px;
+}
+#desktop_menu_shop ul{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 40%;
+}
+#desktop_menu_shop #first_ul{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#desktop_menu_shop ul li{
+    margin-top: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#desktop_menu_shop ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #C4FEF6;
+}
+#desktop_menu_shop #second_ul li div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 41px;
+}
+@media(max-width: 1357px){
+    #desktop_menu_shop #second_ul li div{
+        display: none;
+    }
+}
+@media(min-width: 720px){
+    #mobile_header{
+        display: none;
+    }
+    #desktop_header_shop_area{
+        display: block;
+    }
+    .header_logo{
+        font-size: 55px;
+        position: absolute;
+        right: calc(50% - 132px);
+        top: 30px;
+    }
+    #water_color_bg{
+        left: calc(50% - 75px);
+    }
+    #desktop_menu_shop{
+        width: 100%;
+    }
+}
 /* //////////////////////////////////MOBILE FILTER AREA/////////////////////////////////  */
 #mobile_filter{
     height: 75px;
@@ -13,6 +91,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    margin-top: -60px;
 }
  
 #mobile_filter div p{
@@ -35,20 +114,9 @@
     margin-right: auto;
     margin-top: 30px;
 }
-@media(min-width: 720px){
-    #products{
-        width: 720px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media(min-width: 1100px){
-    #products{
-        width: 950px;
-    }
+.product:hover{
+    cursor: pointer;
+    border: 2px solid #4b9187;
 }
 #product1{
     background: url(https://ctl.s6img.com/society6/img/ttHqWUDPItrFooLjEFJfrGPuV1g/h_550,w_550/prints/~artwork/s6-0045/a/20051706_4146805/~~/little-deer-8bu-prints.jpg) center no-repeat;
@@ -67,14 +135,20 @@
     background-size: cover;
 }
 #product5{
-    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/bear-calm-amy-hamilton.jpg) center no-repeat;
+    background: url(https://render.fineartamerica.com/images/rendered/default/print/8/8/break/images/artworkimages/medium/1/bear-calm-amy-hamilton.jpg) center no-repeat;
     background-size: cover;
-    border: 1px solid lightgray;
+     border: 1px solid lightgray; 
+}
+#product5:hover{
+    border: 2px solid #4b9187;
 }
 #product6{
     background: url(http://cdn.homesthetics.net/wp-content/uploads/2016/02/Expand-Your-Knowledge-With-Watercolor-Painting-Ideas-homesthetics-22.jpg) center no-repeat;
     background-size: cover;
-    border: 1px solid lightgray;
+     border: 1px solid lightgray; 
+}
+#product6:hover{
+    border: 2px solid #4b9187;
 }
 
 /* ////////////////// FOOTER /////////////////////////  */
@@ -151,5 +225,18 @@
     #mobile_filter div select{
         font-size: 10px;
     }
+    #products{
+        width: 720px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
+}
+@media(min-width: 1100px){
+    #products{
+        width: 950px;
+    }
 }
