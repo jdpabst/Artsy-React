@@ -39,7 +39,7 @@ class Item1 extends Component {
     };
     return (
       <div className="shop">
-          <h1 className="header_logo">Artsy</h1>
+          <Link to='/' style={{textDecoration: 'none', color: 'black'}}><h1 className="header_logo">Artsy</h1></Link>
           <section id="mobile_header_shop">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>

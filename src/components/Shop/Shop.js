@@ -31,7 +31,7 @@ class Shop extends Component {
   render() {
     return (
       <div className="shop_area">
-          <h1 className="header_logo">Artsy</h1>
+          <Link to='/' style={{textDecoration: 'none', color: 'black'}}><h1 className="header_logo">Artsy</h1></Link>
           <section id="mobile_header_shop">
                 <div className='ham'  onClick={ this.handleDropDown }>
                   <div id="bar1"></div>
@@ -79,6 +79,7 @@ class Shop extends Component {
               <div className="product" id="product3"></div>
               <div className="product" id="product4"></div>
               <div className="product" id="product5"></div>
+              <div className="product" id="product6"></div>
           </div>
           <div className="footer_shop_area">
         <div id="categories">

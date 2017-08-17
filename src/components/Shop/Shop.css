@@ -1,7 +1,6 @@
 .shop_area{
     width: 100%;
     height: 550px;
-    /* border: 2px dotted lightblue; */
     margin-top: 150px;
 }
 /* //////////////////////////////////MOBILE FILTER AREA/////////////////////////////////  */
@@ -15,13 +14,7 @@
     justify-content: space-around;
     text-align: center;
 }
-@media(min-width: 720px){
-    #mobile_filter{
-        height: 550px;
-        width: 100px;
-    }
-    
-}
+ 
 #mobile_filter div p{
     font-family: 'Montserrat', sans-serif;
     /* color: white; */
@@ -42,6 +35,21 @@
     margin-right: auto;
     margin-top: 30px;
 }
+@media(min-width: 720px){
+    #products{
+        width: 720px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(min-width: 1100px){
+    #products{
+        width: 950px;
+    }
+}
 #product1{
     background: url(https://ctl.s6img.com/society6/img/ttHqWUDPItrFooLjEFJfrGPuV1g/h_550,w_550/prints/~artwork/s6-0045/a/20051706_4146805/~~/little-deer-8bu-prints.jpg) center no-repeat;
     background-size: cover;
@@ -61,6 +69,12 @@
 #product5{
     background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/bear-calm-amy-hamilton.jpg) center no-repeat;
     background-size: cover;
+    border: 1px solid lightgray;
+}
+#product6{
+    background: url(http://cdn.homesthetics.net/wp-content/uploads/2016/02/Expand-Your-Knowledge-With-Watercolor-Painting-Ideas-homesthetics-22.jpg) center no-repeat;
+    background-size: cover;
+    border: 1px solid lightgray;
 }
 
 /* ////////////////// FOOTER /////////////////////////  */
@@ -106,6 +120,8 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+/*/////////////////////////////// MEDIA QUERIES////////////////////////////////////  */
 @media(max-width: 410px){
     #categories{
         width: 320px;
@@ -113,4 +129,27 @@
     #categories ul li{
         font-size: 25px;
     }
+}
+@media(min-width: 720px){
+     .shop_area{
+         top: 200px;
+     }
+    #mobile_filter{
+        height: 55px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        border-top: 1px solid #CDCCCC;
+        border-bottom: 1px solid #CDCCCC;
+    }
+    #mobile_filter div p{
+        font-size: 15px;
+        height: 25px;
+        padding-top: 7px;
+    }
+    #mobile_filter div select{
+        font-size: 10px;
+    }
+    
 }
