@@ -227,6 +227,9 @@
         left: 0;
         top: 0;
     }
+    #mobile_header_shop{
+        display: none;
+    }
     #img_slider div{
         height: 400px;
         width: 400px;
