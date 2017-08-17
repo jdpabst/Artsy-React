@@ -2,6 +2,9 @@
     background: white;
     height: 140px;
 }
+.header_logo{
+    display: block;
+}
 #content_area{
     position: relative;
     margin-left: auto;

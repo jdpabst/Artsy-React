@@ -23,3 +23,81 @@
  .header_logo{
     display: none;
 } 
+#desktop_header2{
+    width: 100%;
+    background-size: cover; 
+    height: 75px;
+    display: none;
+}
+#desktop_menu2{
+    height: 80px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 30px;
+}
+#desktop_menu2 ul{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 40%;
+}
+#desktop_menu2 #first_ul{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#desktop_menu2 ul li{
+    margin-top: 52px;
+    /* font-family: 'Montserrat', sans-serif;  */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Homemade Apple', cursive;
+    font-family: 'Grand Hotel', cursive; */
+    font-size: 12px;
+    font-weight: bold;
+}
+#desktop_menu2 ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #C4FEF6;
+}
+#desktop_menu2 #second_ul li div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+    background: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 41px;
+}
+@media(max-width: 1357px){
+    #desktop_menu2 #second_ul li div{
+        display: none;
+    }
+}
+@media(min-width: 720px){
+    #mobile_header2{
+        display: none;
+    }
+    #desktop_header2{
+        display: block;
+    }
+    .header_logo{
+        font-size: 55px;
+        position: absolute;
+        right: calc(50% - 132px);
+        top: 30px;
+    }
+    #desktop_menu2{
+        width: 100%;
+    }
+}
