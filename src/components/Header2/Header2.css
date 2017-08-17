@@ -4,3 +4,18 @@
     border: 2px solid lime;
     position: relative;
 }
+.header_logo2{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    right: calc(50% - 125px);
+    z-index: 10;
+    top: 28px;
+    color: black;
+    font-weight: bold;
+}
+.header_logo{
+    display: none;
+}
