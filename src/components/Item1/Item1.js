@@ -62,6 +62,20 @@ class Item1 extends Component {
                 </section>
                 <div id="cart_items">0</div>
           </section>
+          <section id="desktop_header_shop_area">
+              <div id="desktop_menu_item">
+                <ul id="first_ul">
+                    <Link to='/' style={{textDecoration: 'none', color: 'black'}}><li>HOME</li></Link>
+                    <Link to='/shop' style={{textDecoration: 'none', color: 'black'}}><li>SHOP</li></Link>
+                    <li>ABOUT US</li>
+                </ul>
+                <ul id="second_ul">
+                    <li>CONTACT</li>
+                    <li>CONNECT</li>
+                    <li>CART<div id='desktop_cart'>0</div></li>
+                </ul>
+              </div>
+        </section>
           <section id="content_area">
             <div id="img_slider">
                 {/*If I was doing this with a backend, I would use an API call to hit the database and populate the img tags accordingly*/}

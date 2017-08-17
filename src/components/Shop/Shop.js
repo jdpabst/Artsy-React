@@ -90,7 +90,7 @@ class Shop extends Component {
           <div id="products">
               <div className="product" id="product1"></div>
               <div className="product" id="product2"></div>
-              <div className="product" id="product3"></div>
+              <Link to='/cactus'><div className="product" id="product3"></div></Link>
               <div className="product" id="product4"></div>
               <div className="product" id="product5"></div>
               <div className="product" id="product6"></div>
