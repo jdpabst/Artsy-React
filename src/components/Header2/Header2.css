@@ -3,6 +3,8 @@
     height: 250px;
     border: 2px solid lime;
     position: relative;
+    top: -150px;
+    margin-bottom: -245px;
 }
 .header_logo2{
     font-family: 'Homemade Apple', cursive;
@@ -12,10 +14,10 @@
     text-align: center;
     right: calc(50% - 125px);
     z-index: 10;
-    top: 28px;
+     top: 28px; 
     color: black;
     font-weight: bold;
 }
-.header_logo{
+ .header_logo{
     display: none;
-}
+} 
